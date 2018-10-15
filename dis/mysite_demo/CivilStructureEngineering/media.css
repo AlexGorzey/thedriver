@@ -1,0 +1,40 @@
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+
+/* Largr display */
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    /*Navbar*/
+    .navbar {
+        background-color: #777;
+        position: fixed;
+        top: -150px;
+        width: 100%;
+        transition: top 0.5s;
+        z-index: 5;
+        font-size: 18px;
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 13px;
+        text-decoration: none;
+    }
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+}
