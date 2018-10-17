@@ -1,0 +1,25 @@
+/* MEDIA */
+
+@media (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+    .w3-xlarge {
+        font-size: 18px;
+    }
+    .w3-sidebar {
+        width: 100% important;
+    }
+    .mySlidesImg {
+        height: 360px;
+        width: 100%;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    footer {
+        font-size: 18px;
+    }
+}

@@ -113,6 +113,20 @@
     .dropdown-click.mobile .button {
         width: 100%
     }
+    .small {
+        font-size: 12px;
+    }
+    .large-ico-f {
+        font-size: 18px!important;
+        padding: 2px;
+        color: #000;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    .right {
+        margin: 10px 5px;
+    }
 }
 
 @media (max-width:768px) {

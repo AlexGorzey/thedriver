@@ -505,7 +505,7 @@ h6 {
 /* Footer */
 
 .aboutUs {
-    padding: 0 48px;
+    padding: 0 24px;
 }
 
 .footer {
@@ -516,7 +516,8 @@ h6 {
 }
 
 .justify {
-    text-align: justify!important
+    text-align: justify!important;
+    padding: 0 24px;
 }
 
 .center {
@@ -528,11 +529,21 @@ h6 {
 
 .large-ico {
     font-size: 18px!important;
+    padding: 2px;
+    color: #000;
+}
+
+.large-ico-f {
+    font-size: 18px!important;
     padding: 2px 10px;
     color: #000;
 }
 
 .large-ico:hover {
+    opacity: 0.60
+}
+
+.large-ico-f:hover {
     opacity: 0.60
 }
 

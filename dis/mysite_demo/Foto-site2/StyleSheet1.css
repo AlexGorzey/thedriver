@@ -282,13 +282,16 @@ footer {
     overflow: auto;
     background-color: black;
     text-align: center;
+    overflow-x: hidden;
 }
 
 
 /* Modal Content */
 
 .modal-content {
-    /*position: relative; */
+    /*position: relative; 
+    overflow-x: hidden;
+    */
     margin: auto;
     padding: 0;
     width: auto;
@@ -297,12 +300,16 @@ footer {
 }
 
 .mySlidesImg {
-    height: 480px;
+    height: 468px !important;
+    width: auto !important;
     position: absolute;
-    top: 45%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    /*
+    overflow-x: hidden;
+    */
 }
 
 
@@ -315,6 +322,7 @@ footer {
     right: 25px;
     font-size: 35px;
     font-weight: bold;
+    z-index: 13;
 }
 
 .close:hover,

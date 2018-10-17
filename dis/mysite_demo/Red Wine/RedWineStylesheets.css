@@ -2,6 +2,7 @@
 
 body {
     cursor: default;
+    margin: 0;
 }
 
 h1,
@@ -11,6 +12,7 @@ h4,
 h5,
 h6 {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 1rem
 }
 
 
@@ -20,18 +22,17 @@ h6 {
     line-height: 1;
     border-bottom: 1px solid #e5e5e5;
     background-color: rgb(167, 11, 11);
+    width: inherit;
     height: 120px;
     align-content: center;
 }
 
-.display-4 {
-    font-size: 2.5rem;
+.header-img {
+    height: 118px;
 }
 
-@media (min-width: 768px) {
-    .display-4 {
-        font-size: 3rem;
-    }
+.display-4 {
+    font-size: 2.5rem;
 }
 
 .nav-scroller {
@@ -135,12 +136,6 @@ h6 {
     height: 250px;
 }
 
-@media (min-width: 768px) {
-    .h-md-250 {
-        height: 250px;
-    }
-}
-
 
 /* MAIN */
 
@@ -163,7 +158,7 @@ h6 {
 
 .blog-post-title {
     margin-bottom: .25rem;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
 }
 
 .blog-post-meta {
@@ -248,7 +243,7 @@ h6 {
 
 .ci-style-2:hover {
     transition: opacity 0.6s;
-    cursor: pointer;
+    cursor: inherit;
     text-decoration: none;
     opacity: 1;
 }
@@ -377,7 +372,7 @@ h6 {
 }
 
 .footer-style3 {
-    padding: 25px 50px 25px 50px;
+    padding: 25px 25px 25px 50px;
 }
 
 .blog-footer p:last-child {
@@ -385,7 +380,6 @@ h6 {
 }
 
 .back-to-top {
-    display: inline;
     position: fixed;
     right: 35px;
     bottom: 50px;
@@ -404,4 +398,105 @@ h6 {
 .copiright:hover {
     text-decoration-line: none;
     color: brown;
+}
+
+
+/* MEDIA */
+
+@media (min-width: 768px) {
+    .display-4 {
+        font-size: 3rem;
+    }
+    .h-md-250 {
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        font-size: 12px;
+        overflow-x: hidden;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    .header-style {
+        height: 140px;
+    }
+    .blog-header-style {
+        width: inherit;
+        height: 92px;
+    }
+    .header-img {
+        height: 90px;
+    }
+    .deck-1,
+    .deck-2 {
+        padding: 25px 0;
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-deck .card {
+        margin-bottom: 15px;
+    }
+    .back-to-top {
+        display: none;
+    }
+    p.card-text {
+        font-size: 12px;
+    }
+    .main2-txt {
+        margin: 8px 0;
+        opacity: 1;
+        background-color: white;
+        border: 1px solid brown;
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        width: 100%;
+        font-size: 12px;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    .header-style {
+        height: 110px;
+    }
+    .blog-header-style {
+        width: inherit;
+        height: 62px;
+    }
+    .header-img {
+        height: 60px;
+    }
+    .post-img1 {
+        width: 100%;
+    }
+    .post-img2 {
+        width: 100%;
+    }
+    .deck-1,
+    .deck-2 {
+        width: 100%;
+    }
+    .footer-style2 {
+        padding: 25px;
+    }
+    .footer-style3 {
+        padding: 25px;
+    }
+    .back-to-top {
+        display: none;
+    }
+    .main2-txt {
+        margin: 8px 0;
+        opacity: 1;
+        background-color: white;
+        border: 1px solid brown;
+    }
 }

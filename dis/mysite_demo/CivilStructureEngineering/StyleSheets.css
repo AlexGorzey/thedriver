@@ -29,7 +29,7 @@ html {
 .bgimg-3,
 .bgimg-4 {
     position: relative;
-    opacity: 0.65;
+    opacity: 0.95;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -203,7 +203,7 @@ h3 {
 }
 
 .col-s6 {
-    width: 49.99999%
+    width: 46.99999%
 }
 
 .col-s7 {
@@ -271,12 +271,29 @@ h3 {
 
 .card {
     padding: 0;
+    margin: 0;
 }
 
 .card-item-s4 {
     float: left;
     padding: 8px 16px;
 }
+
+
+/*
+.clearfix {
+    overflow: auto;
+}
+*/
+
+
+/*
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+*/
 
 .s4-anime1,
 .s4-anime2 {

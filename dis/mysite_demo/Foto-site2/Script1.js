@@ -3,7 +3,9 @@ function myMap() {
     myCenter = new google.maps.LatLng(48.4365692, 22.7176936);
     var mapOptions = {
         center: myCenter,
-        zoom: 12, scrollwheel: false, draggable: false,
+        zoom: 12,
+        scrollwheel: false,
+        draggable: false,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
@@ -16,9 +18,15 @@ function myMap() {
 
 // Open and close sidebar
 function openNav() {
-    document.getElementById("mySidebar").style.width = "60%";
-    document.getElementById("mySidebar").style.display = "block";
+    if (window.screen.width <= 768) {
+        document.getElementById("mySidebar").style.width = "100%";
+        document.getElementById("mySidebar").style.display = "block";
+    } else {
+        document.getElementById("mySidebar").style.width = "60%";
+        document.getElementById("mySidebar").style.display = "block";
+    }
 }
+
 function closeNav() {
     document.getElementById("mySidebar").style.display = "none";
 }
@@ -27,9 +35,12 @@ function openNav2() {
     document.getElementById("mySidebar2").style.width = "100%";
     document.getElementById("mySidebar2").style.display = "block";
 }
+
 function closeNav2() {
     document.getElementById("mySidebar2").style.display = "none";
 }
+
+
 
 
 //Photo
@@ -49,9 +60,9 @@ function Gallery(target) {
     this.index = 0;
 }
 
-Gallery.prototype.init = function () {
+Gallery.prototype.init = function() {
     var self = this;
-    $('a.next', this.target).click(function () {
+    $('a.next', this.target).click(function() {
         self.images.eq(self.index).css('opacity', 0);
         self.index++;
         if (self.index >= self.images.length) {
@@ -59,7 +70,7 @@ Gallery.prototype.init = function () {
         }
         self.images.eq(self.index).css('opacity', 1);
     });
-    $('a.prev', this.target).click(function () {
+    $('a.prev', this.target).click(function() {
         self.images.eq(self.index).css('opacity', 0);
         self.index--;
         if (self.index < 0) {
@@ -67,16 +78,15 @@ Gallery.prototype.init = function () {
         }
         self.images.eq(self.index).css('opacity', 1);
     });
-    $('.column img', this.target).click(function () {
+    $('.column img', this.target).click(function() {
         self.index = $(this).attr('data-num');
         self.images.css('opacity', 0);
         self.images.eq(self.index).css('opacity', 1);
     });
 };
 
-$(function () {
-    $('.modal-content').each(function () {
+$(function() {
+    $('.modal-content').each(function() {
         new Gallery(this).init();
     });
 });
- 

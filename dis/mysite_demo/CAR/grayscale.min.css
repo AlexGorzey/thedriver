@@ -40,7 +40,7 @@ body {
 }
 
 h1>.brand-heading {
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .intro>.intro-body {
@@ -65,7 +65,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 50px 0 35px 0;
     font-weight: 700;
     letter-spacing: 1px
 }
@@ -86,21 +86,6 @@ p {
 
 .intro-text {
     text-align: center;
-}
-
-@media (min-width: 860px) {
-    p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
-        text-align: justify;
-    }
-    .section_item {
-        margin: 0 0 25px;
-        font-size: 20px;
-        line-height: 1.5;
-        text-align: justify;
-    }
 }
 
 a {
@@ -177,23 +162,6 @@ a:hover {
     color: #fff
 }
 
-@media (min-width: 860px) {
-    .navbar-custom {
-        padding: 20px 0;
-        border-bottom: none;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-        transition: background .5s ease-in-out, padding .5s ease-in-out
-    }
-    .navbar-custom.top-nav-collapse {
-        padding: 0;
-        background: cornflowerblue;
-        border-bottom: 1px solid rgba(255, 255, 255, .3)
-    }
-}
-
 .intro {
     display: table;
     height: auto;
@@ -213,33 +181,20 @@ a:hover {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px
+    font-size: 36px
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px
 }
 
-@media (min-width: 860px) {
-    .intro {
-        height: 100%;
-        padding: 0
-    }
-    .intro .intro-body .brand-heading {
-        font-size: 80px
-    }
-    .intro .intro-body .intro-text {
-        font-size: 26px
-    }
-}
-
 .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
+    width: 55px;
+    height: 60px;
+    margin: 35px auto 35px auto;
+    padding: 0px 0px 32px 0px;
     border: 2px solid #fff;
-    border-radius: 100% !important;
+    border-radius: 80% !important;
     font-size: 40px;
     color: #fff;
     background: 0 0;
@@ -273,6 +228,10 @@ a:hover {
     -moz-animation-timing-function: linear
 }
 
+.glyphicon-menu-down {
+    font-size: 28px;
+}
+
 @-webkit-keyframes pulse {
     0%,
     100% {
@@ -298,12 +257,12 @@ a:hover {
 }
 
 .content-section {
-    padding-top: 100px
+    padding-top: 60px
 }
 
 .download-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 0 0 50px 0;
     color: #fff;
     background: url(../img/downloads-bg.jpg) center center no-repeat cornflowerblue;
     -webkit-background-size: cover;
@@ -312,22 +271,20 @@ a:hover {
     -o-background-size: cover
 }
 
+.carousel-inner {
+    width: 730px;
+    height: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .map {
     width: 720px;
     height: 400px;
-}
-
-@media (max-width:860px) {
-    .content-section {
-        padding-top: 250px
-    }
-    .download-section {
-        padding: 100px 0
-    }
-    .map {
-        width: 360px;
-        height: 240px;
-    }
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn {
@@ -354,23 +311,6 @@ a:hover {
 
 ul.banner-social-buttons {
     margin-top: 0
-}
-
-@media (max-width:1199px) {
-    ul.banner-social-buttons {
-        margin-top: 15px
-    }
-}
-
-@media (max-width:860px) {
-    ul.banner-social-buttons li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0
-    }
-    ul.banner-social-buttons li:last-child {
-        margin-bottom: 0
-    }
 }
 
 footer {
@@ -409,4 +349,157 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0
+}
+
+
+/* MEDIA */
+
+@media (max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px
+    }
+}
+
+@media (min-width: 860px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+    .section_item {
+        margin: 0 0 25px;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 860px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out
+    }
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        background: cornflowerblue;
+        border-bottom: 1px solid rgba(255, 255, 255, .3)
+    }
+}
+
+@media (min-width: 860px) {
+    .intro {
+        height: 100%;
+        padding: 0
+    }
+    .intro .intro-body .brand-heading {
+        font-size: 40px
+    }
+    .intro .intro-body .intro-text {
+        font-size: 26px
+    }
+}
+
+@media (max-width:860px) {
+    body {
+        width: 100%;
+    }
+    .content-section {
+        padding-top: 25px
+    }
+    .download-section {
+        padding: 100px 0
+    }
+    .map {
+        width: 360px;
+        height: 240px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .download-section {
+        width: 100%;
+        padding: 20px 0;
+        color: #fff;
+    }
+    .carousel-inner {
+        width: 360px;
+        height: 260px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:860px) {
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0
+    }
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+    p {
+        font-size: 13px;
+    }
+    ul>li {
+        font-size: 13px;
+    }
+    /*navbar*/
+    nav {
+        width: 100%;
+    }
+    .container {
+        width: inherit;
+    }
+    .container>.navbar-collapse,
+    .container>.navbar-header {
+        width: inherit;
+    }
+    .nabar-header {
+        width: inherit;
+        padding: auto 0px;
+    }
+    .navbar-brand {
+        font-size: 14px;
+    }
+    .navbar-toggle {
+        position: absolute;
+        display: inline;
+        right: 0;
+    }
+    /*Intro*/
+    .brand-heading {
+        font-size: 22px;
+    }
+    .content-section {
+        padding-top: inherit;
+    }
+    .carousel-inner {
+        padding: auto 0 auto 0;
+        width: 290px;
+        height: 210px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .map {
+        width: 290px;
+        height: 240px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

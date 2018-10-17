@@ -7,7 +7,9 @@ html {
 }
 
 .navbar {
-    background-color: lightslategray;
+    width: 100%;
+    background-color: gray;
+    color: white;
 }
 
 .navbar-nav {
@@ -17,10 +19,36 @@ html {
 
 .navbar-nav>.nav-item {
     width: 100px;
+    color: white;
+    font-weight: 500;
+    font-variant: small-caps;
+}
+
+.navbar-nav>.nav-item:hover {
+    width: 100px;
+    color: black;
+    font-weight: 300;
+    font-variant: small-caps;
 }
 
 .navbar-brand {
     width: auto;
+    color: white;
+    font-variant: small-caps
+}
+
+.navbar-brand:hover {
+    color: black;
+    text-decoration-line: none;
+}
+
+.navbar-toggler {
+    background-color: white;
+    z-index: 0;
+}
+
+.navbar-toggler-icon {
+    z-index: 13;
 }
 
 .intro {
@@ -50,7 +78,7 @@ carousel {
 
 .carousel-item {
     height: 42rem;
-    background-color: white;
+    background-color: inherit;
     position: center;
 }
 
@@ -83,14 +111,27 @@ carousel {
 /* Project Section */
 
 .container-fluide {
-    background-color: whitesmoke;
-    padding: 32px 0;
+    /*background-color: whitesmoke;*/
+    background-color: grey;
+    color: white;
+    padding: 82px 0;
+}
+
+.card {
+    background-color: grey;
+    color: white;
+    border-color: white;
+    z-index: 7;
+    transition: 750ms;
+    overflow: hidden;
+    width: inherit;
+    height: inherit;
 }
 
 .card-block {
-    color: dimgrey;
+    color: white;
     text-align: center;
-    padding: 10px;
+    padding: 32px 16px 8px 16px;
 }
 
 .jumbotron-heading {
@@ -99,9 +140,13 @@ carousel {
     font-weight: 300;
 }
 
-.card-img-top {
-    opacity: 0.6;
+.card-img-fixed {
     height: 240px;
+}
+
+.card-img-top {
+    opacity: 1;
+    height: inherit;
 }
 
 .card:hover>a,
@@ -113,11 +158,18 @@ carousel {
     transition: opacity 0.5s, color 0.5s;
 }
 
+.card:hover>a>.card-img-fixed>.card-img-top {
+    width: 110%;
+    height: 110%;
+    transition: 750ms;
+}
+
 
 /* Services Section */
 
 .services-section {
     text-align: justify;
+    padding-top: 72px;
 }
 
 
@@ -140,10 +192,19 @@ carousel {
 
 .contact-section {
     text-align: center;
+    padding-top: 72px;
 }
 
 
 /* Map Section */
+
+.map {
+    width: 720px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* Footer */
@@ -171,7 +232,9 @@ carouselIMG {
 
 .carouselIMG {
     height: 36rem;
+    /*
     background-color: whitesmoke;
+    */
     position: center;
     min-width: auto;
 }
@@ -181,7 +244,11 @@ carouselIMG {
     width: 100%;
     opacity: 0.7;
     background-size: cover;
-    padding-top: 100px;
+    padding-top: 60px;
+}
+
+.carousel-inner2 {
+    background-color: grey;
 }
 
 .slide1 {
@@ -193,5 +260,48 @@ carouselIMG {
 }
 
 .copiright:hover {
+    color: black;
     text-decoration-line: none;
+}
+
+@media (max-width: 860px) {
+    .map {
+        width: 380px;
+        height: 260px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-section {
+        padding-top: 52px;
+    }
+    .services-section {
+        padding-top: 42px;
+    }
+    .contact-section {
+        padding-top: 42px;
+    }
+    .carouselIMG {
+        height: 18rem;
+        position: center;
+        min-width: auto;
+    }
+    .carouselIMG>img {
+        padding-top: 12px;
+    }
+}
+
+@media (max-width: 420px) {
+    .carouselIMG {
+        height: 18rem;
+        position: center;
+        min-width: auto;
+    }
+    .map {
+        width: 290px;
+        height: 240px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
