@@ -1,0 +1,55 @@
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+
+/* Largr display */
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    body {
+        font: 400 14px/1.8 "Lato", sans-serif;
+    }
+    /*Navbar*/
+    .navbar {
+        background-color: #777;
+        position: fixed;
+        top: -170px;
+        width: 100%;
+        transition: top 0.5s;
+        z-index: 5;
+        font-size: 14px;
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 7px;
+        text-decoration: none;
+    }
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .card {
+        width: 100%;
+    }
+    .s41 {
+        transition: 750ms;
+        overflow: hidden;
+        width: 100%;
+        height: 180px;
+    }
+    .card-container-f {
+        font-size: 14px;
+    }
+}

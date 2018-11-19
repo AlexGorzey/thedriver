@@ -1,0 +1,503 @@
+﻿/* stylelint-disable selector-list-comma-newline-after */
+
+body {
+    cursor: default;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 1rem
+}
+
+
+/* HEADER */
+
+.blog-header-style {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: rgb(167, 11, 11);
+    width: inherit;
+    height: 120px;
+    align-content: center;
+}
+
+.header-img {
+    height: 118px;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+    color: red;
+    background-color: whitesmoke;
+}
+
+.nav-scroller .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+}
+
+.nav-scroller .nav-style {
+    color: brown;
+    text-decoration-color: brown;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    color: olive;
+}
+
+.header-style {
+    height: 170px;
+}
+
+
+/* SECTION */
+
+.carousel-item {
+    text-decoration: none;
+    text-decoration-style: none;
+    text-emphasis: none;
+    text-decoration-line: none;
+    text-size-adjust: none;
+}
+
+.header-style1 {
+    color: white;
+    vertical-align: middle;
+    height: 520px;
+    background-image: url(RedWineFoto/header2.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+.deck-1 {
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+.ci-style-1 {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.ci-top-1 {
+    height: 160px;
+    border-radius: 5px;
+}
+
+.c-body-1 {
+    color: brown;
+}
+
+#cardimg:hover {
+    transition: box-shadow 0.5s;
+    box-shadow: .75rem .75rem .75rem rgba(0, 0, 0, .05);
+    ;
+}
+
+.ci-style-1 a:hover {
+    text-decoration: none;
+    color: olive;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+
+/* MAIN */
+
+.line {
+    size: 10px;
+}
+
+.blog-post {
+    margin-bottom: 4rem;
+    color: brown;
+    text-align: justify;
+}
+
+.blog-post a:hover {
+    text-decoration: none;
+    color: olive;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.0rem;
+}
+
+.blog-post-meta {
+    color: brown;
+}
+
+.post-img1 {
+    width: 280px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.post-img2 {
+    width: 420px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+/*MAIN - CARD*/
+
+.deck-2 {
+    padding: 25px 0;
+    text-decoration: none;
+}
+
+.ci-style-2 {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    opacity: 0.8;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ci-top-2 {
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.c-body-2 {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: inherit;
+    margin: 0;
+    z-index: 13;
+    background: inherit;
+    /*
+    animation-name: vision;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    */
+}
+
+.c-body-3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: inherit;
+    margin: 0;
+    display: none;
+    opacity: 0;
+    padding: 2em 2em 0 0;
+}
+
+.move-up {
+    top: 32%;
+}
+
+.text {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.ci-style-2:hover>.move-up {
+    transition: transform 1s;
+    transform: translate(0, -55px);
+}
+
+.ci-style-2:hover {
+    transition: opacity 0.6s;
+    cursor: inherit;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.ci-style-2:hover>.ci-top-2 {
+    transition: all width linear 0.3s;
+    scale: 90%;
+}
+
+.ci-style-2:hover>.c-body-2>.c-body-3 {
+    transition: all opacity 1s, display 1s linear 2s;
+    opacity: 1;
+    display: block;
+}
+
+
+/* MAIN-2 */
+
+.card-wine {
+    align-items: center;
+    width: 100%;
+    min-height: 360px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.card--content {
+    min-width: 200px;
+    margin: 5px;
+    z-index: 3;
+    border-style: outset;
+    border-radius: 10px;
+    box-shadow: .5rem .5rem .75rem rgba(0, 0, 0, .05);
+}
+
+.row-main-2 {
+    text-align: center;
+    justify-content: center;
+    padding: 32px 16px;
+}
+
+.main2-txt {
+    position: relative;
+    border-radius: 10px;
+    border: 4px groove brown;
+    color: brown;
+    background-color: whitesmoke;
+    opacity: 0.75
+}
+
+.main2-txt:hover {
+    background-color: white;
+    border: 1px solid brown;
+    opacity: 1;
+    transition: border 0.75s, opacity 0.75s, background-color 0.75s;
+}
+
+.main2-txt:hover>.line {
+    width: 240px;
+    transition: width 0.75s linear 0.75s;
+}
+
+.main2-H4 {
+    padding: 16px 8px 0 8px;
+    z-index: 3;
+}
+
+.line {
+    padding: 0;
+    color: inherit;
+    width: 120px;
+    border: 0.5px solid brown;
+    z-index: 3;
+}
+
+.main2-p {
+    z-index: 3;
+}
+
+.picture {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    left: 44%;
+    opacity: 0.25;
+    z-index: 0;
+}
+
+
+/* SECTION - 2 */
+
+.header-style2 {
+    color: white;
+    vertical-align: middle;
+    height: 520px;
+    background-image: url(RedWineFoto/transkarpatia.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 5px;
+    opacity: 0.9;
+    margin-bottom: 42px;
+}
+
+
+/* FOOTER */
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.footer-style1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-style2 {
+    padding: 25px 50px 25px 50px;
+}
+
+.footer-style3 {
+    padding: 25px 25px 25px 50px;
+}
+
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 35px;
+    bottom: 50px;
+    color: olive;
+}
+
+.back-to-top a:hover {
+    color: olive;
+    text-decoration: none;
+}
+
+.copiright {
+    color: inherit;
+}
+
+.copiright:hover {
+    text-decoration-line: none;
+    color: brown;
+}
+
+
+/* MEDIA */
+
+@media (min-width: 768px) {
+    .display-4 {
+        font-size: 3rem;
+    }
+    .h-md-250 {
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        font-size: 12px;
+        overflow-x: hidden;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    .header-style {
+        height: 140px;
+    }
+    .blog-header-style {
+        width: inherit;
+        height: 92px;
+    }
+    .header-img {
+        height: 90px;
+    }
+    .deck-1,
+    .deck-2 {
+        padding: 25px 0;
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-deck .card {
+        margin-bottom: 15px;
+    }
+    .back-to-top {
+        display: none;
+    }
+    p.card-text {
+        font-size: 12px;
+    }
+    .main2-txt {
+        margin: 8px 0;
+        opacity: 1;
+        background-color: white;
+        border: 1px solid brown;
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        width: 100%;
+        font-size: 12px;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    .header-style {
+        height: 110px;
+    }
+    .blog-header-style {
+        width: inherit;
+        height: 62px;
+    }
+    .header-img {
+        height: 60px;
+    }
+    .post-img1 {
+        width: 100%;
+    }
+    .post-img2 {
+        width: 100%;
+    }
+    .deck-1,
+    .deck-2 {
+        width: 100%;
+    }
+    .footer-style2 {
+        padding: 25px;
+    }
+    .footer-style3 {
+        padding: 25px;
+    }
+    .back-to-top {
+        display: none;
+    }
+    .main2-txt {
+        margin: 8px 0;
+        opacity: 1;
+        background-color: white;
+        border: 1px solid brown;
+    }
+}

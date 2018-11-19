@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Online Classic Games</title>
+
+    <link rel="stylesheet" href="lib/bootstrap/b_css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/b_css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/b_css/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets.css">
+    <link rel="stylesheet" href="tenis.css">
+
+    <script src="lib/bootstrap/b_js/jquery-3.2.1.min.js"></script>
+    <script src="lib/bootstrap/b_js/bootstrap.min.js"></script>
+    <script src="tenis.js"></script>
+</head>
+
+<body class="container">
+    <header class="masthead">
+        <h2><span class="green">Online</span> <span class="orange">Classic</span> <span class="blue">Games</span></h2>
+    </header>
+    <nav>
+        <ul class="nav nav-justified menu">
+            <li><a href="Snake.html" class="green">Snake JS</a></li>
+            <li class="active"><a a href="#" class="blue">Tenis JS</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <canvas width="650" height="420" id="canvas2" onclick="tenis.game.begin();"></canvas>
+            </div>
+            <div class="col-md-4" id="controls">
+                <input type="button" id="pause" value="Play" onClick="tenis.game.pause(this);" accesskey="p" class="btn btn-primary">
+                <br/>
+                <br/>
+                <input type="button" id="restart" value="Restart" onClick="tenis.game.restart();" class="btn btn-primary">
+                <br/>
+                <br/>
+
+                <div class="score2">
+                    Score :
+                    <span id="scoreboard">0</span>
+                </div>
+                <br />
+
+                <div class="instuction2-1">
+                    <h4 class="score2-1">Rules</h4>
+
+                    <p><span class="border"><i class="fa">&#xf177;</i></span> Move the snake left</p>
+                    <p><span class="border"><i class="fa">&#xf178;</i></span> Move the snake right</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="nav nav-justified footer">
+            <a href="http://www.webappfactory.site" class="orange copiright">&copy;Web App Factory 2018 </a>
+        </div>
+    </footer>
+</body>
+
+</html>

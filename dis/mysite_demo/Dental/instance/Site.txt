@@ -1,0 +1,903 @@
+
+
+<!DOCTYPE html>
+<html lang="uk" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="https://primedent.com.ua/wp-content/themes/primedent/favicon.png" />
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="stylesheet" href="https://primedent.com.ua/wp-content/themes/primedent/css/fullPage/jquery.fullpage.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+<link rel="stylesheet" href="https://primedent.com.ua/wp-content/themes/primedent/css/slick.css">
+
+<script src="https://primedent.com.ua/wp-content/themes/primedent/js/wow.min.js"></script>
+<title>Стоматологічна клініка Primedent</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v7.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Лікування карієсу, каналів, ясен * Реставрація, протезування, видалення, імплантація зубів * Безкоштовна консультація | с. Крюківщина, вул. Європейська, 2а"/>
+<link rel="canonical" href="https://primedent.com.ua/" />
+<meta property="og:locale" content="uk_UA" />
+<meta property="og:locale:alternate" content="ru_RU" />
+<meta property="og:locale:alternate" content="en_GB" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Стоматологічна клініка Primedent" />
+<meta property="og:description" content="Лікування карієсу, каналів, ясен * Реставрація, протезування, видалення, імплантація зубів * Безкоштовна консультація | с. Крюківщина, вул. Європейська, 2а" />
+<meta property="og:url" content="https://primedent.com.ua/" />
+<meta property="og:site_name" content="Стоматологічна клініка Primedent" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Лікування карієсу, каналів, ясен * Реставрація, протезування, видалення, імплантація зубів * Безкоштовна консультація | с. Крюківщина, вул. Європейська, 2а" />
+<meta name="twitter:title" content="Стоматологічна клініка Primedent" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/primedent.com.ua\/","name":"\u0421\u0442\u043e\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u0447\u043d\u0430 \u043a\u043b\u0456\u043d\u0456\u043a\u0430 Primedent","potentialAction":{"@type":"SearchAction","target":"https:\/\/primedent.com.ua\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Стоматологічна клініка Primedent &raquo; стрічка" href="https://primedent.com.ua/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Стоматологічна клініка Primedent &raquo; Канал коментарів" href="https://primedent.com.ua/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Стоматологічна клініка Primedent &raquo; Головна Канал коментарів" href="https://primedent.com.ua/golovna/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/primedent.com.ua\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.6"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='primedent-style-css'  href='https://primedent.com.ua/wp-content/themes/primedent/style.css?ver=4.9.6' type='text/css' media='all' />
+<script type='text/javascript' src='https://primedent.com.ua/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://primedent.com.ua/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://primedent.com.ua/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://primedent.com.ua/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://primedent.com.ua/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.6" />
+<link rel='shortlink' href='https://primedent.com.ua/' />
+<link rel="alternate" type="application/json+oembed" href="https://primedent.com.ua/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fprimedent.com.ua%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://primedent.com.ua/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fprimedent.com.ua%2F&#038;format=xml" />
+<link rel="alternate" href="https://primedent.com.ua/" hreflang="uk" />
+<link rel="alternate" href="https://primedent.com.ua/ru/" hreflang="ru" />
+<link rel="alternate" href="https://primedent.com.ua/en/" hreflang="en" />
+<link rel="pingback" href="https://primedent.com.ua/xmlrpc.php">		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style type="text/css" id="wp-custom-css">
+			/*
+Здесь можно добавить ваши CSS-стили.
+
+Нажмите на значок помощи выше, чтобы узнать больше.
+*/
+
+html{
+	margin-top: 0 !important;
+}
+.footer__logo__link {
+    width: 150px;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}		</style>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W5G6TLL');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '289473068188248', {
+em: 'insert_email_variable,'
+});
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=289473068188248&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+</head>
+
+<body class="fullPage--body">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5G6TLL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81690262-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<div class="mobile__menu">
+    <div class="mobile__bg"></div>
+    <div class="mobile__wrapp">
+        <div class="mobile__wrapp__item">
+            <div class="menu header__menu">
+                <ul id="menu-golovne-menyu" class="menu__list"><li id="menu-item-324" class="menu__item menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-324 active "><a href="/#works">Наші роботи</a></li>
+<li id="menu-item-327" class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-327"><a href="https://primedent.com.ua/services-ua/">Послуги</a></li>
+<li id="menu-item-936" class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-936"><a href="https://primedent.com.ua/price/">Ціни</a></li>
+<li id="menu-item-338" class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-338"><a href="https://primedent.com.ua/likari/">Лікарі</a></li>
+<li id="menu-item-342" class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-342"><a href="https://primedent.com.ua/novini/">Новини</a></li>
+<li id="menu-item-346" class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-346"><a href="https://primedent.com.ua/about-ua/">Про клініку</a></li>
+<li id="menu-item-378" class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="https://primedent.com.ua/kontakti/">Контакти</a></li>
+</ul>            </div>
+            <div class="header__info">
+                <div class="header__phone"><a href="tel:+38 067 495-77-47" class="link header__phone__link binct-phone-number-1">+38 <span>067 495-77-47</span></a></div>
+                <div class="header__lang">
+                    <div class="chooseLang select_wrapp">
+                        <select name="chouseLang" id="chouseLang" class="chouseLang__select" onChange="window.location.href=this.value">
+                                                    <option value="https://primedent.com.ua/" selected>uk</option>
+                                                    <option value="https://primedent.com.ua/ru/">ru</option>
+                                                    <option value="https://primedent.com.ua/en/">en</option>
+                                                </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header class="header opacity__anim">
+    <div class="container">
+        <div class="row header__row">
+            <div class="logo header__logo">
+                <a href="https://primedent.com.ua" class="link logo__link"><img src="https://primedent.com.ua/wp-content/themes/primedent/image/logo.svg" alt=""></a>
+            </div>
+            <div class="menu header__menu">
+                <ul id="menu-golovne-menyu-1" class="menu__list"><li class="menu__item menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-324 active  active "><a href="/#works">Наші роботи</a></li>
+<li class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-327"><a href="https://primedent.com.ua/services-ua/">Послуги</a></li>
+<li class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-936"><a href="https://primedent.com.ua/price/">Ціни</a></li>
+<li class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-338"><a href="https://primedent.com.ua/likari/">Лікарі</a></li>
+<li class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-342"><a href="https://primedent.com.ua/novini/">Новини</a></li>
+<li class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-346"><a href="https://primedent.com.ua/about-ua/">Про клініку</a></li>
+<li class="menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="https://primedent.com.ua/kontakti/">Контакти</a></li>
+</ul>            </div>
+            <div class="header__info">
+                <div class="header__phone"><a href="tel:+38 067 495-77-47" class="link header__phone__link binct-phone-number-1">+38 <span>067 495-77-47</span></a></div>
+                <div class="header__lang">
+                    <div class="chooseLang select_wrapp">
+                        <select name="chouseLang" id="chouseLang" class="chouseLang__select" onChange="window.location.href=this.value">
+                                                            <option value="https://primedent.com.ua/" selected>uk</option>
+                                                            <option value="https://primedent.com.ua/ru/">ru</option>
+                                                            <option value="https://primedent.com.ua/en/">en</option>
+                                                    </select>
+                    </div>
+                </div>
+            </div>
+            <div class="header__mobile__btn__wrapp">
+                <div class="header__mobile__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="fullpage">
+    <div class="section" id="section0">
+        <div class="intro">
+            <div class="section0__bg opacity__anim">
+                <div class="section0__bg__img">
+	                	                <video poster="" id="myVideo" loop="" muted="" preload="auto" data-autoplay="">
+						<source src="https://primedent.com.ua/wp-content/themes/primedent/primedent_promo_No_graf_x264.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+ 						<source src="https://primedent.com.ua/wp-content/themes/primedent/primedent_promo_No_graf_libtheora_001.ogv" type="video/ogg" >
+					</video>
+					                </div>
+            </div>
+            <div class="container container__page">
+                <div class="row">
+                    <div class="section0__wrapp wrapp">
+                        <h1 class="header1 opacity__anim">Лікування зубів без болю</h1>
+                        <div class="btn section0__btn opacity__anim"><a href="#" class="link btn__link btn__anim" data-toggle="modal" data-target="#modal">Записатися на прийом</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    <div class="section" id="section1">
+        <div class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="section1__wrapp wrapp">
+						                        <h1 class="header1 header1--content">Наші <span>переваги</span><div class="header1__after">Переваги</div></h1>
+                        <div class="advantages">
+                            <div class="row advantages__list">
+                                                                    <div class="advantages__item">
+                                        <div class="advantages__item__wrapp">
+                                            <div class="advantages__picture">
+                                                <a href="https://primedent.com.ua/likari/"><img src="https://primedent.com.ua/wp-content/uploads/2017/04/advantage1_v11.png" alt=""></a>
+                                                <i></i>
+                                            </div>
+                                            <h6 class="advantages__title"><a href="https://primedent.com.ua/likari/">Сертифіковані лікарі з міжнародним досвідом</a></h6>
+                                        </div>
+                                    </div>
+                                                                    <div class="advantages__item">
+                                        <div class="advantages__item__wrapp">
+                                            <div class="advantages__picture">
+                                                <a href="https://primedent.com.ua/about-ua/"><img src="https://primedent.com.ua/wp-content/uploads/2017/04/advantage1_v6.png" alt=""></a>
+                                                <i></i>
+                                            </div>
+                                            <h6 class="advantages__title"><a href="https://primedent.com.ua/about-ua/">Сучасне стоматологічне обладнання та матеріали</a></h6>
+                                        </div>
+                                    </div>
+                                                                    <div class="advantages__item">
+                                        <div class="advantages__item__wrapp">
+                                            <div class="advantages__picture">
+                                                <a href="https://primedent.com.ua/about-ua/"><img src="https://primedent.com.ua/wp-content/uploads/2017/04/advantage1_v7.png" alt=""></a>
+                                                <i></i>
+                                            </div>
+                                            <h6 class="advantages__title"><a href="https://primedent.com.ua/about-ua/">Стерилізація за найвищими світовими стандартами</a></h6>
+                                        </div>
+                                    </div>
+                                                                    <div class="advantages__item">
+                                        <div class="advantages__item__wrapp">
+                                            <div class="advantages__picture">
+                                                <a href="https://primedent.com.ua/spetsialni-propozitsiyi/"><img src="https://primedent.com.ua/wp-content/uploads/2017/04/advantage1_v10.png" alt=""></a>
+                                                <i></i>
+                                            </div>
+                                            <h6 class="advantages__title"><a href="https://primedent.com.ua/spetsialni-propozitsiyi/">Індивідуальний підхід до кожного пацієнта</a></h6>
+                                        </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="section2">
+		<div class="intro">
+			<div class="container">
+				<div class="row">
+					<div class="section2__wrapp wrapp">
+												<h1 class="header1 header1--content"><span>Гарантія</span> на пломби та протезування<div class="header1__after">Гарантія</div></h1>
+						<div class="garantia">
+							<div class="garantia__list">
+								<div class="garantia__item"><div class="garantia__nubmer"><span>7</span></div><div class="garantia__text">років гарантії на коронки</div></div>
+								<div class="garantia__item garantia__item--second"><div class="garantia__nubmer"><span>2</span></div><div class="garantia__text">роки гарантії на пломби</div></div>
+								<div class="garantia__item garantia__item--third"><div class="garantia__nubmer">Пожиттєва</div><div class="garantia__text">гарантія на імпланти</div></div>
+							</div>
+							<div class="garantia__content">Ми працюємо тільки з найкращими матеріалами:<br />
+Нанокомпозити Filtek виробництва США.</div>
+							<div class="btn section2__btn"><a href="#" class="link btn__link btn__anim"  data-toggle="modal" data-target="#modal_garantiya">Записатися на прийом</a></div>
+						</div>
+						<div class="section2__wrapp--picture"><i></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="section" id="section3">
+        <div class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="section3__wrapp wrapp">
+						                        <h1 class="header1 header1--content">Популярні <span>послуги</span><div class="header1__after header1__after--small">Популярні послуги</div></h1>
+                        <div class="popular">
+                            <div class="row popular__list">
+								                                    <div class="popular__item">
+    									<a href="https://primedent.com.ua/implantatsiya-ta-hirurgiya/">
+											<div class="popular__item__wrapp">
+												<div class="popular__picture">
+													<img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/service1_1.jpg" alt="">
+												</div>
+												<h6 class="popular__title">Імплантація та хірургія</h6>
+											</div>
+    									</a>
+                                    </div>
+                                                                    <div class="popular__item">
+    									<a href="https://primedent.com.ua/estetichna-stomatologiya/">
+											<div class="popular__item__wrapp">
+												<div class="popular__picture">
+													<img data-src="https://primedent.com.ua/wp-content/uploads/2017/05/service_11.jpg" alt="">
+												</div>
+												<h6 class="popular__title">Вініри та керамічні вкладки</h6>
+											</div>
+    									</a>
+                                    </div>
+                                                                    <div class="popular__item">
+    									<a href="https://primedent.com.ua/paradontologiya/">
+											<div class="popular__item__wrapp">
+												<div class="popular__picture">
+													<img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/service3-1.jpg" alt="">
+												</div>
+												<h6 class="popular__title">Лікування ясен та гігієна</h6>
+											</div>
+    									</a>
+                                    </div>
+                                                                    <div class="popular__item">
+    									<a href="https://primedent.com.ua/terapiya/">
+											<div class="popular__item__wrapp">
+												<div class="popular__picture">
+													<img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/service1_2.jpg" alt="">
+												</div>
+												<h6 class="popular__title">Лікування карієсу та пломбування</h6>
+											</div>
+    									</a>
+                                    </div>
+                                                                    <div class="popular__item">
+    									<a href="https://primedent.com.ua/ortodontiya/">
+											<div class="popular__item__wrapp">
+												<div class="popular__picture">
+													<img data-src="https://primedent.com.ua/wp-content/uploads/2017/05/service_ort.jpg" alt="">
+												</div>
+												<h6 class="popular__title">Виправлення прикусу</h6>
+											</div>
+    									</a>
+                                    </div>
+                                                                    <div class="popular__item">
+    									<a href="https://primedent.com.ua/plazmoterapiya/">
+											<div class="popular__item__wrapp">
+												<div class="popular__picture">
+													<img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/service6-1.jpg" alt="">
+												</div>
+												<h6 class="popular__title">Ін’єкційна косметологія</h6>
+											</div>
+    									</a>
+                                    </div>
+                                                            </div>
+                        </div>
+                        <div class="btn"><a href="https://primedent.com.ua/services-ua/" class="link btn__link btn__anim">Всі послуги</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="section4">
+        <div class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="section4__wrapp wrapp">
+						                        <h1 class="header1 header1--content"><span>Дитяча</span> стоматологія<div class="header1__after">Дитяча</div></h1>
+                        <div class="row content__row">
+                            <div class="content__photo">
+                                <div class="content__picture content__picture--anim">
+                                    <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/children1.jpg" alt="">
+                                    <i></i>
+                                </div>
+                            </div>
+                            <div class="content__text">
+                                <p><p>Ми знаємо, як навчити дітей не бояться лікувати зуби. Перед тим, як посадити дитину в крісло, наш лікар в ігровій формі розповість про процедури та інструменти стоматолога. Довіра і дружні відносини з маленьким пацієнтом допомагають провести лікування максимально ефективно.</p>
+</p>
+                                <div class="btn section4__btn"><a href="#" class="link btn__link btn__anim" data-toggle="modal" data-target="#modal_detskaya">Записати дитину на прийом</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="section5">
+        <div class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="section5__wrapp wrapp">
+						                        <h1 class="header1 header1--content">Спеціальні <span>пропозиції клініки</span><div class="header1__after">Пропозиції</div></h1>
+                        <div class="row content__row ">
+                            <div class="content__photo">
+                                <div class="content__slide__wrapp">
+                                    <div class="content__slide">
+                                                                                    <div class="content__slide__item">
+                                                <img data-src="https://primedent.com.ua/wp-content/uploads/2017/05/spec3.jpg" alt="">
+                                            </div>
+                                                                                    <div class="content__slide__item">
+                                                <img data-src="https://primedent.com.ua/wp-content/uploads/2017/05/spec2.jpg" alt="">
+                                            </div>
+                                                                                    <div class="content__slide__item">
+                                                <img data-src="https://primedent.com.ua/wp-content/uploads/2017/05/spec1.jpg" alt="">
+                                            </div>
+                                                                            </div>
+                                    <i></i>
+                                </div>
+                            </div>
+                            <div class="content__text content__text--left">
+                                                                
+                                <p>Для своїх пацієнтів ми приготували спеціальні пропозиції, які зроблять візит до стоматолога не тільки приємним, але і вигідним. У Primedent на постійній основі діють програми «Приведи батьків», «Стоматологічний туризм» і можливість придбати «Подарунковий сертифікат».</p>
+                                <div class="btn section4__btn">
+                                    <a href="https://primedent.com.ua/spetsialni-propozitsiyi/" class="link btn__link btn__anim">Всі пропозиції</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="section6">
+        <div class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="section6__wrapp wrapp">
+						                        <h1 class="header1 header1--content">Якість, що <span>випереджає ціну</span><div class="header1__after">Ціну</div></h1>
+                        <div class="row content__row">
+                            <div class="content__photo">
+                                <div class="content__picture content__picture--anim">
+                                    <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/quality.jpg" alt="">
+                                    <i></i>
+                                </div>
+                            </div>
+                            <div class="content__text">
+                                <p><p>У PrimeDent  ви знайдете високоякісний сервіс за комфортною ціною. Майстерність та міжнародний досвід лікарів, найкращі матеріали родом зі США та Швейцарії, сучасне високоточне обладнання, відповідальність персонала та абсолютна безпечність процедур - обирайте найкраще за розумну вартість!</p>
+</p>
+                                <div class="btn section4__btn"><a href="#" class="link btn__link btn__anim" data-toggle="modal" data-target="#modal_kachestvo">Записатися на прийом</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="section7">
+        <div class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="section7__wrapp wrapp">
+						                        <h1 class="header1 header1--small header1--content"><span>Безпечне та безболісне лікування</span> для всієї родини<div class="header1__after">Всієї родини</div></h1>
+                        <div class="row content__row">
+                            <div class="content__text content__text--left content__text--left">
+                                <p><strong>Електронна анестезія</strong>, що вводиться за допомогою надсучасного апарату абсолютно безболісно. Седація – глибокий сон, під час якого зберігаються усі захисні функції організму, а пацієнт взагалі не відчуває болю. </p>
+<p>Підходить для лікування дітей.</p>
+                                <div class="btn section4__btn"><a href="#" class="link btn__link btn__anim" data-toggle="modal" data-target="#modal_bezopasno">Записатися на прийом</a></div>
+                            </div>
+                            <div class="content__photo">
+                                <div class="content__picture content__picture--contain content__picture--anim">
+                                    <img data-src="/wp-content/uploads/2017/04/tooth.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="section8">
+        <div class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="section7__wrapp wrapp">
+						                        <h1 class="header1 header1--small header1--content">Наші <span>роботи</span><div class="header1__after">Работы</div></h1>
+                        <div class="work">
+                            <p>Краще один раз побачити: фотографії стану зубів до проведення процедури і після неї.</p>
+                            <div class="content__work">
+                                <div class="work__slider">
+                                                                        <div class="work__item">
+                                        <div class="work__wrapp">
+                                            <div class="work__images">
+                                                <div class="work__before">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/6_do.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">До</div>
+                                                </div>
+                                                <div class="work__after">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/6_posle.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">Після</div>
+                                                </div>
+                                            </div>
+                                            <div class="work__describe"><p>Виконано: відбілювання зубів ; 10 керамічних вінірів Noritake.</p>
+</div>
+                                        </div>
+                                    </div>
+                                                                        <div class="work__item">
+                                        <div class="work__wrapp">
+                                            <div class="work__images">
+                                                <div class="work__before">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/5_do.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">До</div>
+                                                </div>
+                                                <div class="work__after">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/5_posle.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">Після</div>
+                                                </div>
+                                            </div>
+                                            <div class="work__describe"><p>Виконано: відбілювання зубів ; 10 керамічних вінірів Noritake.</p>
+</div>
+                                        </div>
+                                    </div>
+                                                                        <div class="work__item">
+                                        <div class="work__wrapp">
+                                            <div class="work__images">
+                                                <div class="work__before">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/1_do_v2.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">До</div>
+                                                </div>
+                                                <div class="work__after">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/1_posle_v2.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">Після</div>
+                                                </div>
+                                            </div>
+                                            <div class="work__describe"><p>Комплексне лікування:  здійснено хірургічну пластику ясен; імплантація Straumann SLA Active; 28 керамічних реставрацій E-max. </p>
+</div>
+                                        </div>
+                                    </div>
+                                                                        <div class="work__item">
+                                        <div class="work__wrapp">
+                                            <div class="work__images">
+                                                <div class="work__before">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/2_do.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">До</div>
+                                                </div>
+                                                <div class="work__after">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/2_posle.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">Після</div>
+                                                </div>
+                                            </div>
+                                            <div class="work__describe"><p>Виконано заміна старої пломби, лікування карієсу  та реставрація фотополімером  Filtek Ultimate.</p>
+</div>
+                                        </div>
+                                    </div>
+                                                                        <div class="work__item">
+                                        <div class="work__wrapp">
+                                            <div class="work__images">
+                                                <div class="work__before">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/3_do.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">До</div>
+                                                </div>
+                                                <div class="work__after">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/3_posle.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">Після</div>
+                                                </div>
+                                            </div>
+                                            <div class="work__describe"><p>Лікування кореневих каналів , армування скловолоконними штифтами , встановлення цирконієвих коронок</p>
+</div>
+                                        </div>
+                                    </div>
+                                                                        <div class="work__item">
+                                        <div class="work__wrapp">
+                                            <div class="work__images">
+                                                <div class="work__before">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/4_do.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">До</div>
+                                                </div>
+                                                <div class="work__after">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/4_posle.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">Після</div>
+                                                </div>
+                                            </div>
+                                            <div class="work__describe"><p>Комплексне лікування: імплантація Straumann SLA Active; встановлення 28 керамічних реставрацій E-max.</p>
+</div>
+                                        </div>
+                                    </div>
+                                                                        <div class="work__item">
+                                        <div class="work__wrapp">
+                                            <div class="work__images">
+                                                <div class="work__before">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/7_do.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">До</div>
+                                                </div>
+                                                <div class="work__after">
+                                                    <div class="work__img">
+                                                        <img data-src="https://primedent.com.ua/wp-content/uploads/2017/04/7_posle.jpg" alt="">
+                                                    </div>
+                                                    <div class="work__figure">Після</div>
+                                                </div>
+                                            </div>
+                                            <div class="work__describe"><p>Комплексне лікування:  лікування карієсу; встановлено 4 керамічних вініра на рефракторі Noritake; 8 керамічних вкладок E-max.</p>
+</div>
+                                        </div>
+                                    </div>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section" id="section9">
+        <div class="introsection">
+	                    <div class="intro">
+                <div class="container">
+                    <div class="row">
+                        <div class="section9__wrapp wrapp">
+							                            <h1 class="header1 header1--content">Що про нас <span>говорять</span><div class="header1__after">Говорять</div></h1>
+                            <div class="row content__row">
+                                <div class="content__text content__text--left">
+                                    <div class="content__facebook">
+                                    </div>
+                                </div>
+                                <div class="content__photo">
+                                    <div class="content__picture content__picture--anim">
+                                        <img data-src="https://primedent.com.ua/wp-content/themes/primedent/image/speak.jpg" alt="">
+                                        <i></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <footer class="footer">
+                <div class="container">
+						<div class="row footer__row">
+							<div class="footer__top row">
+								<div class="adress">
+									<div class="footer__title">Адреса</div>
+									<div class="footer__text">с. Крюківщина ЖК «Европейське Місто», <br>вул. Европейска 2а</div>
+								</div>
+								<div class="footer__logo">
+									<a href="https://savobi.com/" target="_blank" class="footer__logo__link">
+										<img src="https://primedent.com.ua/wp-content/themes/primedent/image/logo-1-1.svg" alt="">
+									</a>
+								</div>
+								<div class="graphic">
+									<div class="footer__title">Графік работи:</div>
+									<div class="footer__text">По будням з 9.00 до 20.00<br>по вихідним з 9.00 до 18.00</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                <div class="footer--bottom">
+                    <div class="container">
+                        <div class="row footer__row">
+                            <div class="footer__bottom row">
+                                <div class="copyright">© 2018 Всі права захищено</div>
+                                <div class="author">
+                                    <a href="https://yourfuture.com.ua/" target="_blank" class="author__link link">
+                                        <svg version="1.1" id="_x31_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                             viewBox="0 0 153.8 20" enable-background="new 0 0 153.8 20" xml:space="preserve">
+                                        <g>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M7.7,16.5h1.4v-4.5l5.5-8h-1.7l-4.5,6.5L3.9,3.9H2.2L7.7,12V16.5
+                                                L7.7,16.5z M17.9,10.2c0-0.7,0.1-1.3,0.4-1.9c0.3-0.6,0.6-1.1,1.1-1.6c0.5-0.5,1-0.8,1.6-1.1c0.6-0.3,1.3-0.4,2-0.4
+                                                c0.7,0,1.3,0.1,1.9,0.4c0.6,0.3,1.1,0.6,1.6,1.1c0.5,0.5,0.8,1,1.1,1.6c0.3,0.6,0.4,1.2,0.4,1.9c0,0.5-0.1,1-0.2,1.4
+                                                c-0.1,0.5-0.3,0.9-0.6,1.3c-0.3,0.4-0.6,0.8-0.9,1.1c-0.4,0.3-0.8,0.6-1.2,0.8l0.7,1.1c0.5-0.3,1-0.6,1.4-1
+                                                c0.4-0.4,0.8-0.8,1.1-1.3c0.3-0.5,0.5-1,0.7-1.6c0.2-0.6,0.3-1.2,0.3-1.8c0-0.9-0.2-1.7-0.5-2.5c-0.3-0.8-0.8-1.4-1.4-2
+                                                c-0.6-0.6-1.2-1-2-1.4c-0.8-0.3-1.6-0.5-2.5-0.5c-0.9,0-1.7,0.2-2.5,0.5c-0.8,0.3-1.5,0.8-2,1.4c-0.6,0.6-1,1.2-1.4,2
+                                                c-0.3,0.8-0.5,1.6-0.5,2.5c0,0.6,0.1,1.2,0.2,1.8c0.2,0.6,0.4,1.1,0.7,1.6c0.3,0.5,0.6,0.9,1.1,1.3c0.4,0.4,0.9,0.7,1.4,1l0.9-1.1
+                                                c-0.4-0.2-0.8-0.5-1.2-0.8c-0.4-0.3-0.7-0.7-0.9-1.1s-0.5-0.8-0.6-1.3C18,11.1,17.9,10.7,17.9,10.2L17.9,10.2z M31.9,10.2
+                                                c0,0.9,0.2,1.7,0.5,2.5c0.3,0.8,0.8,1.4,1.4,2c0.6,0.6,1.3,1,2,1.3c0.8,0.3,1.6,0.5,2.5,0.5c0.9,0,1.7-0.2,2.5-0.5
+                                                c0.8-0.3,1.5-0.8,2-1.3c0.6-0.6,1-1.2,1.4-2c0.3-0.8,0.5-1.6,0.5-2.5V3.9h-1.4v6.9c-0.1,0.6-0.3,1.2-0.6,1.7
+                                                c-0.3,0.5-0.7,1-1.1,1.4c-0.4,0.4-0.9,0.7-1.5,0.9c-0.6,0.2-1.2,0.3-1.8,0.3c-0.6,0-1.2-0.1-1.8-0.3c-0.6-0.2-1.1-0.5-1.5-0.9
+                                                c-0.4-0.4-0.8-0.9-1.1-1.4c-0.3-0.5-0.5-1.1-0.6-1.7V3.9h-1.4V10.2L31.9,10.2z M56.6,16.5h1.5l-2.7-5.3c0.4,0,0.8-0.1,1.2-0.3
+                                                c0.4-0.2,0.7-0.5,1-0.8c0.3-0.3,0.5-0.7,0.7-1.1c0.2-0.4,0.2-0.9,0.2-1.3c0-0.5-0.1-1-0.3-1.5c-0.2-0.5-0.4-0.8-0.7-1.2
+                                                c-0.3-0.3-0.6-0.6-1-0.8c-0.4-0.2-0.8-0.3-1.2-0.3h-8v12.6h1.4V5.2h6.3c0.3,0,0.6,0.1,0.8,0.2c0.2,0.2,0.4,0.3,0.6,0.6
+                                                c0.2,0.2,0.3,0.5,0.4,0.8C57,7,57,7.3,57,7.6c0,0.2,0,0.5-0.1,0.8c-0.1,0.3-0.2,0.5-0.3,0.7c-0.2,0.2-0.3,0.4-0.6,0.6
+                                                c-0.2,0.1-0.5,0.2-0.8,0.2h-1.9L56.6,16.5L56.6,16.5z M83.9,10.2c0,0.9,0.2,1.7,0.5,2.5c0.3,0.8,0.8,1.4,1.4,2c0.6,0.6,1.3,1,2,1.3
+                                                c0.8,0.3,1.6,0.5,2.5,0.5c0.9,0,1.7-0.2,2.5-0.5c0.8-0.3,1.5-0.8,2-1.3c0.6-0.6,1-1.2,1.4-2c0.3-0.8,0.5-1.6,0.5-2.5V3.9h-1.4v6.9
+                                                c-0.1,0.6-0.3,1.2-0.6,1.7c-0.3,0.5-0.7,1-1.1,1.4c-0.4,0.4-0.9,0.7-1.5,0.9c-0.6,0.2-1.2,0.3-1.8,0.3c-0.6,0-1.2-0.1-1.8-0.3
+                                                c-0.6-0.2-1.1-0.5-1.5-0.9c-0.4-0.4-0.8-0.9-1.1-1.4c-0.3-0.5-0.5-1.1-0.6-1.7V3.9h-1.4V10.2L83.9,10.2z M99.4,3.9v1.3h4.7v11.3
+                                                h1.4V5.2h4.7V3.9H99.4L99.4,3.9z M113,10.2c0,0.9,0.2,1.7,0.5,2.5c0.3,0.8,0.8,1.4,1.4,2c0.6,0.6,1.3,1,2,1.3
+                                                c0.8,0.3,1.6,0.5,2.5,0.5c0.9,0,1.7-0.2,2.5-0.5c0.8-0.3,1.5-0.8,2-1.3c0.6-0.6,1-1.2,1.4-2c0.3-0.8,0.5-1.6,0.5-2.5V3.9h-1.4v6.9
+                                                c-0.1,0.6-0.3,1.2-0.6,1.7c-0.3,0.5-0.7,1-1.1,1.4c-0.4,0.4-0.9,0.7-1.5,0.9c-0.6,0.2-1.2,0.3-1.8,0.3c-0.6,0-1.2-0.1-1.8-0.3
+                                                c-0.6-0.2-1.1-0.5-1.5-0.9c-0.4-0.4-0.8-0.9-1.1-1.4c-0.3-0.5-0.5-1.1-0.6-1.7V3.9H113V10.2L113,10.2z M137.7,16.5h1.5l-2.7-5.3
+                                                c0.4,0,0.8-0.1,1.2-0.3c0.4-0.2,0.7-0.5,1-0.8c0.3-0.3,0.5-0.7,0.7-1.1c0.2-0.4,0.2-0.9,0.2-1.3c0-0.5-0.1-1-0.3-1.5
+                                                S139,5.3,138.7,5c-0.3-0.3-0.6-0.6-1-0.8c-0.4-0.2-0.8-0.3-1.2-0.3h-8v12.6h1.4V5.2h6.3c0.3,0,0.6,0.1,0.8,0.2
+                                                c0.2,0.2,0.4,0.3,0.6,0.6c0.2,0.2,0.3,0.5,0.4,0.8s0.1,0.6,0.1,0.8c0,0.2,0,0.5-0.1,0.8c-0.1,0.3-0.2,0.5-0.3,0.7
+                                                c-0.2,0.2-0.3,0.4-0.6,0.6c-0.2,0.1-0.5,0.2-0.8,0.2h-1.9L137.7,16.5L137.7,16.5z M151.7,9.9v1.3h-6V9.9H151.7L151.7,9.9z
+                                                 M142.3,16.5h9.6v-1.3h-8.2v-10h8.2V3.9h-9.6V16.5z"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M81.2,7.1V4H70.3l-1.6,3.1H81.2L81.2,7.1z M71.9,16.5v-1.6
+                                                c0-1.3,0.5-2.2,1.6-2.7c0.3-0.2,0.8-0.3,1.6-0.4h6.2V8.7H75c-1.9,0-3.3,0.5-4.4,1.6c-0.8,0.8-1.3,1.8-1.6,3c0,0.3-0.1,0.5-0.1,0.8
+                                                c0,0.3-0.1,0.5-0.1,0.8v1.6H71.9z"/>
+                                        </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</div>
+
+<div id="modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-close"></div>
+                <div class="modal__header">Запишіться на прийом</div>
+                <div class="modal__descr">Введіть свій номер телефону щоб з вами зв'язався адміністратор для вибору зручного часу.</div>
+                <form action="" method="POST">
+                    <div class="form__wrapp row">
+                        <div class="form__box modal__box"><input type="text" placeholder="Введіть ваш телефон" class="textInput priyom__textInput input-phone"></div>
+                        <div class="form__box modal__box"><input type="submit" value="Записатися на прийом" id="main_form" class="submitInput priyom__submitInput btn__anim"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class='modal-backdrop fade'></div>
+</div>
+
+<div id="modal_garantiya" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-close"></div>
+                <div class="modal__header">Запишіться на прийом</div>
+                <div class="modal__descr">Введіть свій номер телефону щоб з вами зв'язався адміністратор для вибору зручного часу.</div>
+                <form action="" method="POST">
+                    <div class="form__wrapp row">
+                        <div class="form__box modal__box"><input type="text" placeholder="Введіть ваш телефон" class="textInput priyom__textInput input-phone"></div>
+                        <div class="form__box modal__box"><input type="submit" value="Записатися на прийом" id="garantiya_form" class="submitInput priyom__submitInput btn__anim"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class='modal-backdrop fade'></div>
+</div>
+
+<div id="modal_detskaya" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-close"></div>
+                <div class="modal__header">Запишіться на прийом</div>
+                <div class="modal__descr">Введіть свій номер телефону щоб з вами зв'язався адміністратор для вибору зручного часу.</div>
+                <form action="" method="POST">
+                    <div class="form__wrapp row">
+                        <div class="form__box modal__box"><input type="text" placeholder="Введіть ваш телефон" class="textInput priyom__textInput input-phone"></div>
+                        <div class="form__box modal__box"><input type="submit" value="Записатися на прийом" id="detskaya_form" class="submitInput priyom__submitInput btn__anim"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class='modal-backdrop fade'></div>
+</div>
+
+<div id="modal_kachestvo" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-close"></div>
+                <div class="modal__header">Запишіться на прийом</div>
+                <div class="modal__descr">Введіть свій номер телефону щоб з вами зв'язався адміністратор для вибору зручного часу.</div>
+                <form action="" method="POST">
+                    <div class="form__wrapp row">
+                        <div class="form__box modal__box"><input type="text" placeholder="Введіть ваш телефон" class="textInput priyom__textInput input-phone"></div>
+                        <div class="form__box modal__box"><input type="submit" value="Записатися на прийом" id="kachestvo_form" class="submitInput priyom__submitInput btn__anim"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class='modal-backdrop fade'></div>
+</div>
+
+<div id="modal_bezopasno" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-close"></div>
+                <div class="modal__header">Запишіться на прийом</div>
+                <div class="modal__descr">Введіть свій номер телефону щоб з вами зв'язався адміністратор для вибору зручного часу.</div>
+                <form action="" method="POST">
+                    <div class="form__wrapp row">
+                        <div class="form__box modal__box"><input type="text" placeholder="Введіть ваш телефон" class="textInput priyom__textInput input-phone"></div>
+                        <div class="form__box modal__box"><input type="submit" value="Записатися на прийом" id="bezopasno_form" class="submitInput priyom__submitInput btn__anim"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class='modal-backdrop fade'></div>
+</div>
+
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+(function(){ var widget_id = '8Y2rbnm5au';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+<!-- {/literal} END JIVOSITE CODE -->
+<script type="text/javascript">
+  (function(d, w, s) {
+	var widgetHash = 'sywvpo7o5d1ye71l1bag', ctw = d.createElement(s); ctw.type = 'text/javascript'; ctw.async = true;
+	ctw.src = '//widgets.binotel.com/calltracking/widgets/'+ widgetHash +'.js';
+	var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(ctw, sn);
+  })(document, window, 'script');
+</script>
+<script type="text/javascript">
+  (function(d, w, s) {
+	var widgetHash = 'hp5zzkf7hr38e5k6cbjl', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;
+	gcw.src = '//widgets.binotel.com/getcall/widgets/'+ widgetHash +'.js';
+	var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(gcw, sn);
+  })(document, window, 'script');
+</script>
+</body>
+
+<script type="text/javascript" src="https://primedent.com.ua/wp-content/themes/primedent/js/fullPage/scrolloverflow.min.js"></script>
+<script type="text/javascript" src="https://primedent.com.ua/wp-content/themes/primedent/js/fullPage/fullpage.scrollOverflowReset.limited.min.js"></script>
+
+<script type="text/javascript" src="https://primedent.com.ua/wp-content/themes/primedent/js/fullPage/jquery.fullpage.extensions.min.js"></script>
+<script src="https://primedent.com.ua/wp-content/themes/primedent/js/animated-ua.js"></script>
+<script src="https://primedent.com.ua/wp-content/themes/primedent/js/slick.min.js"></script>
+<script src="https://primedent.com.ua/wp-content/themes/primedent/js/phone-mask.min.js"></script>
+<script src="https://primedent.com.ua/wp-content/themes/primedent/js/script.js"></script>
+<script>
+	jQuery(document).ready(function(){
+		
+		    var scroll_to_map = 0;
+		    var hr = window.location.href;
+		    if(hr.indexOf('#')){
+			    scroll_to_map++;
+		        if (scroll_to_map == 1) {
+		            jQuery.ajax({
+		                type: "POST",
+		                url: '/wp-admin/admin-ajax.php',
+		                data: {
+		                    action: 'get_fb'
+		                },
+		                success: function (response) {
+		                    jQuery('div.content__facebook').html(response); 
+		                }
+		            });
+		        }
+		    }
+			jQuery(window).on('hashchange', function(e){
+	        scroll_to_map++;
+	        if (scroll_to_map == 1) {
+	            jQuery.ajax({
+	                type: "POST",
+	                url: '/wp-admin/admin-ajax.php',
+	                data: {
+	                    action: 'get_fb'
+	                },
+	                success: function (response) {
+	                    jQuery('div.content__facebook').html(response); 
+	                }
+	            });
+	        }
+	    });
+	});
+</script>
+
+
+</html>
