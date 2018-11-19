@@ -1,0 +1,224 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    /*   Navbar  */
+    .navbar {
+        overflow: hidden;
+        /*background-color: rgba(255, 255, 255, 0.471);*/
+        position: relative;
+        height: 70px;
+        vertical-align: baseline;
+        z-index: 10;
+    }
+    .logo {
+        display: inline-block;
+        position: absolute;
+        left: 30%;
+    }
+    .logo1 {
+        display: inline-block;
+        float: left;
+        width: auto;
+        font-size: 32px;
+        margin: 12px 0 6px 0px;
+        padding-bottom: 2px;
+        background-color: rgba(253, 152, 0, 0.74);
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .logo2 {
+        display: inline-block;
+        font-size: 28px;
+        margin: 16px 8px 6px 0;
+    }
+    .menu {
+        padding: 20px;
+        position: absolute;
+        right: 5%;
+        display: inline;
+        visibility: hidden;
+    }
+    /* Header */
+    .heder-content {
+        position: absolute;
+        top: 15%;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .content1 {
+        font-size: 1em;
+        /*48px;*/
+        padding: 2px;
+    }
+    .content2 {
+        font-size: 1em;
+        /*36px;*/
+        padding: 2px;
+    }
+    /* Section 1 */
+    .hr1-invisible {
+        display: none;
+    }
+    .section1 {
+        padding: 16px 8px 8px 8px;
+    }
+    .s1-content1 {
+        font-size: 24px;
+        padding: 16px 8px;
+    }
+    .s1-content2 {
+        font-size: 20px;
+        padding: 16px 8px 16px 8px;
+    }
+    .form-block {
+        padding: 8px;
+    }
+    /* Section 2 */
+    .section2 {
+        padding: 16px 8px;
+    }
+    .s2-content1 {
+        font-size: 28px;
+        padding: 16px 8px;
+    }
+    /* Section 3 */
+    .section3 {
+        padding: 16px 8px;
+    }
+    .s3-content1 {
+        font-size: 28px;
+        padding: 16px 8px;
+    }
+    .flex-container1 {
+        display: grid;
+        justify-content: center;
+    }
+    .s3-cont1 {
+        width: 46%;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    #sm-video {
+        width: 240px;
+        height: 240px;
+        padding: 4px;
+        border: 1px solid rgb(199, 197, 197);
+        border-radius: 12px;
+    }
+    /* Section 4*/
+    .section4 {
+        padding: 16px 8px;
+    }
+    .s4-content1 {
+        font-size: 28px;
+        padding: 16px 8px;
+    }
+    .center {
+        padding: 0 22px;
+        width: 100%;
+        height: 280px
+    }
+    .center-block {
+        overflow: hidden;
+        position: relative;
+        margin: 5px 10px;
+    }
+    .center-img {
+        width: 100%;
+        height: 240px;
+        overflow: hidden;
+        position: relative;
+    }
+    .center-txt {
+        padding: 8px 46px;
+        background: #fca762;
+        color: white;
+        position: absolute;
+        top: 0%;
+        left: -32%;
+        transform: translate(0%, -32%);
+        transform: rotate(-45deg);
+        z-index: 15;
+    }
+    /* Footer*/
+    .footer-1 {
+        padding: 0 0 24px 0;
+    }
+    .foo-content1 {
+        padding: 8px;
+    }
+    .foo-content2 {
+        padding: 8px;
+    }
+    .foo-content3 {
+        padding: 8px;
+    }
+    .foo-logo {
+        display: inline-block;
+    }
+    .logo3 {
+        display: inline-block;
+        float: left;
+        font-size: 32px;
+        margin: 12px 0 6px 0px;
+        padding-bottom: 2px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .logo4 {
+        display: inline-block;
+        font-size: 28px;
+        margin: 18px 16px 16px 0;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
