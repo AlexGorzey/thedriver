@@ -191,6 +191,7 @@ h6 {
     opacity: 0.8;
     height: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .ci-top-2 {
@@ -249,12 +250,12 @@ h6 {
 }
 
 .ci-style-2:hover>.ci-top-2 {
-    transition: width linear 0.3s;
+    transition: all width linear 0.3s;
     scale: 90%;
 }
 
 .ci-style-2:hover>.c-body-2>.c-body-3 {
-    transition: opacity 1s, display 1s linear 2s;
+    transition: all opacity 1s, display 1s linear 2s;
     opacity: 1;
     display: block;
 }

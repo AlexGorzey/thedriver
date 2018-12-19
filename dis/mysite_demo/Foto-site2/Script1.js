@@ -19,9 +19,9 @@ function myMap() {
 // Open and close sidebar
 function openNav() {
     if (window.screen.width <= 768) {
-        document.getElementById("mySidebar").style.width = "100%";
         document.getElementById("mySidebar").style.display = "block";
-    } else {
+        document.getElementById("mySidebar").style.width = "100%";
+    } else if (window.screen.width > 768) {
         document.getElementById("mySidebar").style.width = "60%";
         document.getElementById("mySidebar").style.display = "block";
     }

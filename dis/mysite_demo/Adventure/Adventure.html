@@ -1,0 +1,377 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'GA_TRACKING_ID');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="robots" content="all" />
+    <meta name="revisit-after" content="15 days" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="description" content="На море с Adventure">
+    <meta name="keywords" content="Сонце, море, пляж, турагенство, Єгипет, Турция, туры ">
+    <meta name="distribution" content="global" />
+    <meta name="author" content="Adventure">
+
+    <title>Adventure</title>
+
+    <link rel="stylesheet" type="text/css" href="lib/slick-1.8.1/slick/slick.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+       <script src="lib/waypoints/lib/jquery.waypoints.min.js"></script>        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    -->
+    <link rel="stylesheet" href="src/css/StyleSheet.css" />
+    <link rel="stylesheet" href="src/css/media.css" />
+    <link rel="stylesheet" type="text/css" href="lib/slick-1.8.1/slick/slick-theme.css" />
+
+    <script src="myScript.js"></script>
+
+</head>
+
+<body id="home">
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+        <div class="logo">
+            <h3 class="logo1">Adven</h3>
+            <h6 class="logo2">ture</h6>
+        </div>
+        <div class="menu">
+            <div>
+                <a href="#tour" class="line1 ">Поиск тура</a>
+            </div>
+            <div>
+                <a href="#hot tour" class="line1 ">Горячие туры</a>
+            </div>
+            <div>
+                <a href="#about us" class="line1">Клиентам</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header row">
+        <div class="col-12">
+            <video id="bg-video-loop" autoplay="true" preload="auto" muted="muted" loop="true" src="https://player.vimeo.com/external/164991523.hd.mp4?s=2cc1550acf0acfcab91a6ca6f6ee1223b6f3db8a&profile_id=174"></video>
+        </div>
+
+        <div class="heder-content col-12">
+            <h3 class="content1">ВКУСИ ЖИЗНЬ! ЖИВИ ИНТЕРЕСНО!</h3>
+            <h3 class="content2">Открывай мир вместе с Adventure!</h3>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="container">
+
+        <!-- Section 1 -->
+        <section id="tour" class="section1 ">
+            <hr class="hr1-invisible">
+            <h3 class="s1-content1 ">Поиск тура</h3>
+
+            <div class="container-form">
+                <form action="">
+                    <div class="row">
+                        <div class="col-4 form-block">
+                            <label for="country">Куда отдыхать</label>
+                            <select id="country" name="country">
+                                <option value="egypt">Єгипет, Шарм-эль-Шейх</option>
+                                <option value="antalia">Турция, Анталия</option>
+                                <option value="salonika">Греция, Салоники</option>
+                                <option value="kryt">Греция, Крит</option>
+                                <option value="croatia">Хорватия, Дубровник</option>
+                            </select>
+                            <label for="city">Откуда летим</label>
+                            <select id="city" name="city">
+                                <option value="kiev">Украина, Киев</option>
+                                <option value="odessa">Украина, Одесса</option>
+                                <option value="harkov">Украина, Харьков</option>
+                                <option value="dnepr">Украина, Днепр</option>
+                                <option value="lvov">Украина, Львов</option>
+                                <option value="minsk">Белорусия, Минск</option>
+                            </select>
+                        </div>
+                        <div class="col-4 form-block">
+                            <label for="country">Дата вылета</label> <br/>
+                            <input type="date" name="calendar" value="2018-06-01" max="2019-06-04" min="2018-05-29">
+                            <label for="days">Количество ночей</label>
+                            <select id="days" name="days">
+                                <option value="3 days">3 ночи</option>
+                                <option value="7 days">7 ночей</option>
+                                <option value="10 days">10 ночей</option>
+                                <option value="12 days">12 ночей</option>
+                            </select>
+                        </div>
+                        <div class="col-4 form-block">
+                            <label for="peoples">Количество людей</label> <br/>
+                            <input type="number" id="peoples" name="peoples" value="2">
+                            <label for="stars">Категория отеля</label>
+                            <select id="stars" name="stars">
+                                <option value="3 stars">3 звезды</option>
+                                <option value="4 stars">4 звезды</option>
+                                <option value="5 stars">5 звезд</option>                       
+                            </select>
+                        </div>
+                        <input type="submit" class="col-12 btn-submit" value="Поиск тура">
+                    </div>
+                </form>
+            </div>
+
+            <div class="s1-content2 row">
+                <div class="col-3">
+                    <div class="s1-card ">
+                        <img class="card-img " src="src/img/logo1.jpg">
+                        <div class="card-txt ">
+                            <h5>Бронируй без предоплаты</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="s1-card ">
+                        <img class="card-img " src="src/img/logo2.jpg">
+                        <div class="card-txt ">
+                            <h5>Конфиденциальность</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="s1-card ">
+                        <img class="card-img " src="src/img/logo3.jpg">
+                        <div class="card-txt ">
+                            <h5>С нами надежно</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 ">
+                    <div class="s1-card ">
+                        <img class="card-img " src="src/img/logo4.jpg">
+                        <div class="card-txt ">
+                            <h5>Круглосуточная поддержка</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section id="hot tour" class="section2">
+            <h3 class="s2-content1">Горячие туры!</h3>
+            <div id="all" class="row">
+                <div class="col-4">
+                    <div class="view view-first ">
+                        <img src="src/img/sharm1.jpg" />
+                        <div class="mask">
+                            <h2>Египет, Шарм-эль-Шейх</h2>
+                            <p>Прекрасный отдых 40 дней и 40 ночей. Выбирай нас!</p>
+                            <a href="#" class="info">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="view view-first ">
+                        <img src="src/img/sharm2.jpg" />
+                        <div class="mask">
+                            <h2>Египет, Шарм-эль-Шейх</h2>
+                            <p>Прекрасный отдых 40 дней и 40 ночей. Выбирай нас!</p>
+                            <a href="#" class="info">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="view view-first ">
+                        <img src="src/img/sharm3.jpg" />
+                        <div class="mask">
+                            <h2>Египет, Шарм-эль-Шейх</h2>
+                            <p>Прекрасный отдых 40 дней и 40 ночей. Выбирай нас!</p>
+                            <a href="#" class="info">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div id="all" class="row">
+                <div class="col-4">
+                    <div class="view view-first ">
+                        <img src="src/img/antal1.jpg" />
+                        <div class="mask">
+                            <h2>Турция, Анталия</h2>
+                            <p>Прекрасный отдых 40 дней и 40 ночей. Выбирай нас!</p>
+                            <a href="#" class="info">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="view view-first ">
+                        <img src="src/img/antal2.jpg" />
+                        <div class="mask">
+                            <h2>Турция, Анталия</h2>
+                            <p>Прекрасный отдых 40 дней и 40 ночей. Выбирай нас!</p>
+                            <a href="#" class="info">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="view view-first ">
+                        <img src="src/img/antal3.jpg" />
+                        <div class="mask">
+                            <h2>Турция, Анталия</h2>
+                            <p>Прекрасный отдых 40 дней и 40 ночей. Выбирай нас!</p>
+                            <a href="#" class="info">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br />
+
+        <!-- Section3 -->
+        <section id="about us" class="section3">
+            <h3 class="s3-content1">Как отдыхают наши клиенты</h3>
+            <div class="flex-container1 row">
+                <div class="s3-cont1 col-6">
+                    <embed id="sm-video" src="https://www.youtube.com/embed/NqcPgIkl3nA">
+                </div>
+                <div class="s3-cont1 col-6">
+                    <embed id="sm-video" src="https://www.youtube.com/embed/-qmTHnXZvo8">
+                </div>
+                <div class="s3-cont1 col-6">
+                    <embed id="sm-video" src="https://www.youtube.com/embed/hFSS1B8uvEQ">
+                </div>
+                <div class="s3-cont1 col-6">
+                    <embed id="sm-video" src="https://www.youtube.com/embed/dRl9LP-nL44">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section4 -->
+        <section class="section4">
+            <h3 class="s4-content1">Открывай мир вместе с нами!</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="center">
+                <div class="center-block">
+                    <img class="center-img" src="src/img/sharm1.jpg" />
+                    <h3 class="center-txt">Египет</h3>
+                </div>
+                <div class="center-block">
+                    <img class="center-img" src="src/img/sharm2.jpg" />
+                    <h3 class="center-txt">Египет</h3>
+                </div>
+                <div class="center-block">
+                    <img class="center-img" src="src/img/sharm3.jpg" />
+                    <h3 class="center-txt">Египет</h3>
+                </div>
+                <div class="center-block">
+                    <img class="center-img" src="src/img/antal1.jpg" />
+                    <h3 class="center-txt">Турция</h3>
+                </div>
+                <div class="center-block">
+                    <img class="center-img" src="src/img/antal2.jpg" />
+                    <h3 class="center-txt">Турция</h3>
+                </div>
+                <div class="center-block">
+                    <img class="center-img" src="src/img/antal3.jpg" />
+                    <h3 class="center-txt">Турция</h3>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer ">
+        <div class=" row">
+            <div class="col-3">
+                <h4 class="logo-title">Адреса</h4>
+                <div class="footer-1">
+                    <div class="footer-2">
+                        <i class="fa fa-map-marker social"></i> Київ, вул. GoogleMap, 12
+                        <br />
+                        <br />
+                        <i class="fa fa-phone social"></i> (044) ###-##-##
+                        <br />
+                        <i class="fa fa-phone social"></i> (+38) ###-##-##
+                    </div>
+                </div>
+            </div>
+            <div class="foo foo-content1 col-3">
+                <p>&copy; Adventure 2018</p>
+                <p>Все права защищены</p>
+            </div>
+            <div class="foo foo-content2 col-3">
+                <p>Мы в социальных сетях</p>
+                <a class="fa fa-facebook" href=""></a>
+                <a class="fa fa-instagram" href=""></a>
+            </div>
+            <div class="foo foo-content3 col-3">
+                <div class="foo-logo ">
+                    <h3 class="logo3 ">Adven</h3>
+                    <h6 class="logo4 ">ture</h6>
+                </div>
+            </div>
+            <br />
+            <div class="copiright-footer col-12">
+                <a href="http://www.webappfactory.site" class="copiright">&copy;Web App Factory 2018 </a>
+            </div>
+        </div>
+    </footer>
+
+    <!--
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+-->
+    <script type="text/javascript" src="lib/jQuery/jquery.js"></script>
+    <script type="text/javascript" src="lib/jQuery/jquery-migrate.js"></script>
+    <script type="text/javascript" src="lib/slick-1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.center').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: true,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                }, {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: true,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }]
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>

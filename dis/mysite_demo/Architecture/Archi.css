@@ -159,9 +159,16 @@ carousel {
 }
 
 .card:hover>a>.card-img-fixed>.card-img-top {
-    width: 110%;
+    /*width: 110%;
     height: 110%;
+    */
     transition: 750ms;
+    transform-origin: center;
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 

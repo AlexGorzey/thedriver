@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="all" />
+    <meta name="revisit-after" content="15 days" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="description" content="дитячий сад для розвитку ваших дітей" />
+    <meta name="keywords" content="дитячий садок, розвиток дітей" />
+    <meta name="distribution" content="global" />
+    <meta name="copiright" content="Web App Factory" />
+    <meta name="author" content="Childhood" />
+
+    <title>Childhood</title>
+
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/mobile.css" />
+    <link rel="stylesheet" href="src/css/jquery.fullPage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.3/fullpage.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--
+	<script type="text/javascript" src="src/lib/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="src/lib/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="jsrc/lib/jquery.slimscroll.min.js"></script>
+-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.3/fullpage.min.js"></script>
+    <script src="src/lib/myScript.js"></script>
+</head>
+
+<script>
+    jQuery(document).ready(function($) {
+        $("#fullpage").fullpage({
+            anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+            menu: '#menu',
+            scrollBar: false,
+            //scrollOverflow:true
+            slidesNavigation: true,
+            navigationPosition: 'left',
+            //slidesNavPosition:'top'
+            loopTop: true,
+            loopBottom: true,
+            verticalCentered: false,
+
+        });
+    })
+</script>
+
+<body>
+
+    <ul id="menu">
+        <li data-menuanchor="firstPage"><a href="#firstPage">Перший розділ</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Другий розділ</a></li>
+        <li data-menuanchor="thirdPage"><a href="#thirdPage">Третій розділ</a></li>
+        <li data-menuanchor="fourthPage"><a href="#fourthPage">Четвертий розділ</a></li>
+    </ul>
+
+    <div id="fullpage">
+        <div class="section s-css1" id="section0">
+            <article class=" row row1">
+                <section class="section1 col-6">
+                    <img class="logo" src="src/img/1.jpg" alt="дитячий садок" />
+                    <h2 class="logo-title"> Ласкаво просимо в "childhood" </h2>
+                </section>
+                <section class="section2 col-6">
+                    <div class="slideshow">
+                        <h2 class="logo-title">У нашому садику ви знайдете</h2>
+                        <!-- Slideshow container -->
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <h4 class="text-title"> ДОМАШНІЙ ЗАТИШОК </h4>
+                                <p class="text-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum.
+                                </p>
+                            </div>
+                            <div class="mySlides fade">
+                                <h4 class="text-title"> ЗБАЛАНСОВАНЕ ХАРЧУВАННЯ </h4>
+                                <p class="text-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum.
+                                </p>
+                            </div>
+                            <div class="mySlides fade">
+                                <h4 class="text-title"> ПРОГРАМУ РОЗВИТКУ </h4>
+                                <p class="text-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum.
+                                </p>
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <br>
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                </section>
+            </article>
+            </div>
+
+            <div class="section s-css2" id="section1">
+                <article class=" row row2">
+                    <h2 class="logo-title "> З нами весело! З нами пізнавально! З нами розважально!</h2>
+                    <div class="main-div">
+                        <div class="div_wrapper">
+                            <img class="img_wrapper" src="src/img/3.jpg" alt="childhood room" />
+                            <img class="img_wrapper" src="src/img/4.jpg" alt="childhood child" />
+                            <img class="img_wrapper" src="src/img/5.jpg" alt="childhood child" />
+                            <img class="img_wrapper" src="src/img/6.jpg" alt="childhood room" />
+                            <img class="img_wrapper" src="src/img/7.jpg" alt="childhood child" />
+                            <img class="img_wrapper" src="src/img/8.jpg" alt="childhood child" />
+                            <img class="img_wrapper" src="src/img/9.jpg" alt="childhood room" />
+                        </div>
+                    </div>
+                    <h5 class="logo-title2 ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </h5>
+                </article>
+            </div>
+            <div class="section s-css3" id="section2">
+                <article class=" row row3">
+                    <h2 class="logo-title">Розклад дня</h2>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-4 ">
+                                <div class="block1">
+                                    <p class="block1-1">8:30 </p>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <h4>Ранкова зарядка</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consequat
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 ">
+                                <div class="block2">
+                                    <p class="block2-2">9:10 </p>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <h4>Сніданок</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consequat
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="block3">
+                                    <p class="block3-3">9:50 </p>
+                                </div>
+                            </div>
+                            <div class="col-8 text-block">
+                                <h4>Заняття</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consequat
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="block4">
+                                    <p class="block4-4">11:30 </p>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <h4>Прогулянка</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consequat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-6">
+                        <div class="row">
+                            <div class="col-4 ">
+                                <div class="block4">
+                                    <p class="block4-4">12:30 </p>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <h4>Обід</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consequat
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 ">
+                                <div class="block1">
+                                    <p class="block1-1">13:15 </p>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <h4>Сон</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consequat
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="block4">
+                                    <p class="block4-4">15:30 </p>
+                                </div>
+                            </div>
+                            <div class="col-8 text-block">
+                                <h4>Заняття</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consequat
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="block2">
+                                    <p class="block2-2">17:30 </p>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <h4>Вечеря</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consequat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="section s-css4" id="section3">
+                <article class=" row">
+                    <section class="row4">
+                        <h2 class="logo-title"> Наші контакти </h2>
+                        <br />
+                        <div class="col-4">
+                            <img class="img_footer" src="src/img/10.jpg" alt="our kindergarten" />
+                        </div>
+                        <div class="col-4">
+                            <h4 class="logo-title">Адреса</h4>
+                            <div class="footer-1">
+                                <div class="footer-2">
+                                    <i class="fa fa-map-marker social"></i> Київ, вул. GoogleMap, 12
+                                    <br />
+                                    <br />
+                                    <i class="fa fa-phone social"></i> (044) ###-##-##
+                                    <br />
+                                    <i class="fa fa-phone social"></i> (+38) ###-##-##
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-4">
+                            <h4 class="logo-title">Ми в соц.мережах</h4>
+                            <div class="footer-1">
+                                <div class="footer-3">
+                                    <a class="social">
+                                        <i class="fa fa-facebook-official"></i>
+                                    </a>
+                                    <a class="social">
+                                        <i class="fa fa-instagram "></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </div>
+        </div>
+
+</body>
+
+</html>
