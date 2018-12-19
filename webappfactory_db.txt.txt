@@ -1,3 +1,0 @@
-database: webappfactory
-user: afsdgfdgd321
-password: 281070611
