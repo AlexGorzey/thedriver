@@ -30,5 +30,8 @@ $(document).ready(function() {
     $('#demo-btn10').click(function() {
         window.open("mysite_demo/Architecture/ArchiAlex.html");
     });
+    $('#demo-btn11').click(function() {
+        window.open("mysite_demo/SUC/index.html");
+    });
 
 });
