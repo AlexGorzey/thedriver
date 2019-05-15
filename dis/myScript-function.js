@@ -19,7 +19,7 @@ $(document).ready(function() {
         window.open("mysite_demo/CivilStructureEngineering/Bud-engineering.html");
     });
     $('#demo-btn7').click(function() {
-        window.open("mysite_demo/Fashion/Steblakizm.html");
+        window.open("mysite_demo/Fashion/build/index.html");
     });
     $('#demo-btn8').click(function() {
         window.open("mysite_demo/Classic Games/Snake.html");
