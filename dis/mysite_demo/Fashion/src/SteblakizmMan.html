@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    
+    <meta charset="utf-8" />
+    <meta name="robots" content="all" />
+    <meta name="revisit-after" content="15 days" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="description" content="Steblakizm - магазин одягу. Steblakizm - замовлення пошиву одягу на замовлення" />
+    <meta name="keywords"
+        content="Steblakizm - замовлення пошиву одягу на замовлення, український одяг, Ольга Стеблак" />
+    <meta name="distribution" content="global" />
+    <meta name="copiright" content="Steblakizm" />
+    <meta name="author" content="Web App Factory" />
+
+    <title>Steblakizm</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link href="./css/all.min.css" rel="stylesheet" />
+
+
+</head>
+
+<body class="body-content">
+    <!-- Sidebar/menu -->
+    <nav class="sidebar bar-block collapse top " id="mySidebar">
+        <div class="sidebar scrollbar-outer">
+            <div class="container display-container">
+                <img src="img/Logo.jpg" alt="Logo" class="logo">
+            </div>
+            <div class="menu">
+                <a href="index.html" class="bar-item button ">Новинки</a>
+                <div class="button btn-block btn-name dropdown-btn">
+                    Жіноча <i class="fa fa-caret-down"></i>
+                </div>
+                <div id="demoAcc" class="bar-block padding-large medium dropdown-container">
+                    <a href="SteblakizmWomanN.html" class="bar-item button">Новинки</a>
+                    <a href="SteblakizmWomanW.html" class="bar-item button">колекція Осінь-Зима</a>
+                    <a href="SteblakizmWomanS.html" class="bar-item button">колекція Весна-Літо</a>
+                    <a href="#" class="bar-item button blocked">Розпродаж</a>
+                </div>
+                <div class="button btn-block btn-name dropdown-btn">
+                    Чоловіча <i class="fa fa-caret-down"></i>
+                </div>
+                <div id="demoAcc" class="bar-block padding-large wmedium dropdown-container active">
+                    <a href="SteblakizmMan.html" class="bar-item button active">Новинки</a>
+                    <a href="#" class="bar-item button blocked">колекція Осінь-Зима</a>
+                    <a href="#" class="bar-item button blocked">колекція Весна-Літо</a>
+                    <a href="#" class="bar-item button blocked">Розпродаж</a>
+                </div>
+                <div class="button btn-block btn-name dropdown-btn" id="myBtn">
+                    Дитяча <i class="fa fa-caret-down"></i>
+                </div>
+                <div id="demoAcc" class="bar-block padding-large medium dropdown-container">
+                    <a href="#" class="bar-item button blocked">Новинки</a>
+                    <a href="#" class="bar-item button blocked">колекція Осінь-Зима</a>
+                    <a href="#" class="bar-item button blocked">колекція Весна-Літо</a>
+                    <a href="#" class="bar-item button blocked">Розпродаж</a>
+                </div>
+                <div class="button btn-block btn-name dropdown-btn" id="myBtn">
+                    Аксесуари <i class="fa fa-caret-down"></i>
+                </div>
+                <div id="demoAcc" class="bar-block padding-large medium dropdown-container">
+                    <a href="SteblakizmAccessoariesW.html" class="bar-item button">Жіночі</a>
+                    <a href="SteblakizmAccessoariesM.html" class="bar-item button">Чоловічі</a>
+                </div>
+                <div class="my-purchases">
+                    <div>Кошик</div>
+                    <div class="total-container">
+                        <span class="total" id="total"> </span>
+                        <i class='fas basket'>&#xf218;</i>
+                    </div>
+                    <button class="load-button">Замовити</button>
+                </div>
+                <a href="#footer" class="bar-item button">Контакти</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MODAL WINDOW FOR BOUGHT PRODUCT  -->
+    <div id="modalBought" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Замовлення товару:</h3>
+            <ol class="bought-product-container">
+            </ol>
+            <button class="confirm-purchase">Підтвердити замовлення</button>
+        </div>
+    </div>
+
+    <!-- Top menu on small screens -->
+    <header class="bar top hide-large black xlarge ">
+        <div class="bar-screen col s10">By Steblakizm </div>
+        <a href="javascript:void(0)" class="col s2 bar-item button btn-right" onclick="w3_open()"><i
+                class="fa fa-bars"></i></a>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="overlay hide-large" onclick="w3_close()" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <section class="main">
+
+        <!-- Push down content on small screens -->
+        <div class="hide-large" style="margin-top:83px"></div>
+        <!-- Top header -->
+        <header>
+            <div class="display-container container">
+                <div class="container xlarge">
+                    <p class="left">Новинки чоловічої колекції
+                        <a href="https://www.facebook.com/steblakizm/"><i
+                                class="fa fa-facebook-official  right large-ico"></i></a>
+                        <a href="https://www.instagram.com/steblakizm/"><i
+                                class="fa fa-instagram right large-ico"></i></a>
+                        <a href="https://www.pinterest.com/olgasteblak/"><i
+                                class="fa fa-pinterest-p right large-ico"></i></a>
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <!-- PRODUCT GRID -->
+        <!-- Modal window for product -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <div class="modal-content">
+                <img class="modal-img" id="modal_img" src="" alt="Product item">
+                <div class="modal-text">
+                    <h1 class="products-title" id="caption"></h1>
+                    <p class="products-content">Steblakizm – український бренд, який випускає одну колекції на
+                        рік. Весь одяг виробляють в Україні, він продається по всьому світу. 30%
+                        речей у колекціях – з переробленого одягу. Бренд використовує як старі матеріали для перешиву
+                        своїх колекцій. Так і виконує закази на пошив індивідуального одягу з високоякісних тканин. </p>
+                    <hr class="hr" />
+                    <div class="products-size">
+                        <div class="products-size-item">
+                            <p class="products-size-title">Розмір </p>
+                            <div class="products-size-button">
+                                <span class="choose-size"> S </span>
+                                <span> - </span>
+                                <span class="choose-size"> M </span>
+                                <span> - </span>
+                                <span class="choose-size active-size"> L </span>
+                                <span> - </span>
+                                <span class="choose-size"> XL </span>
+                            </div>
+                        </div>
+                        <div class="products-size-item size-quantity">
+                            <p class="products-size-title">Кількість </p>
+                            <div class="size-quantity-button">
+                                <button class="size-quantity-btn btn-plus"> + </button>
+                                <div class="products-quantity"> 0 </div>
+                                <button class="size-quantity-btn btn-minus"> - </button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hr" />
+                    <div class="products-price">
+                        <p class="price-title">Ціна: <span> </span></p>
+                        <div class="price-buttons">
+                            <button class="price-btn-by">Додати до кошика</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal window for product -->
+
+        <main>
+            <section class="product-grid ">
+                <div class="container col l4 s12 product">
+                    <div class="product-container">
+                        <img src="" class="img-item">
+                        <span class="tag-new">New</span>
+                    </div>
+                    <p class="product-name">Рубашка</p>
+                    <p class="product-price">840.99 ₴</p>
+                </div>
+                <div class="container col l4 s12 product">
+                    <div class="product-container">
+                        <img src="" class="img-item">
+                        <span class="tag-new">New</span>
+                    </div>
+                    <p class="product-name">Рубашка</p>
+                    <p class="product-price">840.99 ₴</p>
+                </div>
+                <div class="container col l4 s12 product">
+                    <div class="product-container">
+                        <img src="" class="img-item">
+                        <span class="tag-new">New</span>
+                    </div>
+                    <p class="product-name">Майка</p>
+                    <p class="product-price">640.99 ₴</p>
+                </div>
+                <div class="container col l4 s12 product">
+                    <div class="product-container">
+                        <img src="" class="img-item">
+                        <span class="tag-new">New</span>
+                    </div>
+                    <p class="product-name">Рубашка</p>
+                    <p class="product-price">840.99 ₴</p>
+                </div>
+                <div class="container col l4 s12 product">
+                    <div class="product-container">
+                        <img src="" class="img-item">
+                        <span class="tag-new">New</span>
+                    </div>
+                    <p class="product-name">Рубашка</p>
+                    <p class="product-price">840.99 ₴</p>
+                </div>
+                <div class="container col l4 s12 product">
+                    <div class="product-container">
+                        <img src="" class="img-item">
+                        <span class="tag-new">New</span>
+                    </div>
+                    <p class="product-name">Рубашка</p>
+                    <p class="product-price">840.99 ₴</p>
+                </div>
+            </section>
+
+            <!--Click the btn to open the block-->
+            <section id="hide">
+            </section>
+
+            <div class="load-btn">
+                <button class="button btn-block btn-name load-button center" id="btnHide" onclick="HideBtn()">Що ще
+                    нового...</button>
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="container footer small " id="footer">
+            <div class="row">
+                <div class="col s8 aboutUs">
+                    <h4 class="center">Про нас</h4>
+                    <p>Ольга Стеблак - молодий львівський дизайнер, що вже встиг випустити три колекції. Дівчина
+                        народилася у Мукачеві, вчилася у місцевому ліцеї на економічному відділі. Дівчина поїхала з
+                        Закарпаття десять років тому, закінчила Львівську
+                        національну академію мистецтв. Два роки тому відкрила власну справу. Відтоді випускає одяг під
+                        брендом by STEBLAKIZM. Поза дизайнуванням займається графікою та живописом.
+                    </p>
+                    <p>Одяг – це самовираження. Якщо ти маєш смак, то сам собі створюєш образ, робиш самого себе.
+                        Культура одягатися – це ціла психологія. Важливо усе – навіть те, чи попрасує людина собі комір.
+                        Воно не зле, якщо вона не зробить цього, але
+                        це говорить багато про що. Прикраси теж дуже важливі. Капелюхи – це взагалі забута тема, яку
+                        необхідно відроджувати. Вони підкреслюють характер і доповнюють образ, роблять його цілісним.
+                    </p>
+                    <p>
+                        STEBLAKIZM – це фільтр мого життя. Коли я щось створюю, то знімаю цей умовний фільтр і прикладаю
+                        його на папір або тканину. А голові і серцю лишається наповнюватись далі, щоб фільтр потребував
+                        зміни.
+                    </p>
+                </div>
+
+                <div class="col s4 ">
+                    <h4>Наші контакти</h4>
+                    <p><i class="fa fa-fw fa-map-marker"></i> Львів, Україна</p>
+                    <p><i class="fa fa-fw fa-phone"></i> +38 (067) 288-85-30</p>
+                    <p><i class="fa fa-fw fa-envelope"></i> steblakizm @gmail.com</p>
+                    <br />
+                    <br />
+                    <h4>Ми в соц. мережах</h4>
+                    <a href="https://www.facebook.com/steblakizm/"><i
+                            class="fa fa-facebook-official  large-ico"></i></a>
+                    <a href="https://www.instagram.com/steblakizm/"><i class="fa fa-instagram  large-ico"></i></a>
+                    <a href="https://www.pinterest.com/olgasteblak/"><i class="fa fa-pinterest-p  large-ico"></i></a>
+                    <!--<i class="fa fa-linkedin large-ico"></i> -->
+                </div>
+            </div>
+        </footer>
+
+        <div class="container copy">&copy; Web App Factory 2018</div>
+
+        <!-- End page content -->
+    </section>
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/man.js"></script>
+    <script src="./js/jquery.scrollbar.js"></script>
+    <script src="./js/work.js"></script>
+</body>
+
+</html>

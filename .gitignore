@@ -1,0 +1,10 @@
+.vs/*
+dis/mysite_demo/Architecture/.vs/
+dis/mysite_demo/CAR/.vs/
+dis/mysite_demo/CivilStructureEngineering/.vs/
+dis/mysite_demo/Classic Games/.vs/
+dis/mysite_demo/Dental/.vs/
+dis/mysite_demo/Fashion/.vs/
+dis/mysite_demo/Foto-site2/.vs/
+dis/mysite_demo/Red Wine/.vs/
+node_modules

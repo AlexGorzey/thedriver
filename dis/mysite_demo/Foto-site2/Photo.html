@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'GA_TRACKING_ID');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="robots" content="all" />
+    <meta name="revisit-after" content="15 days" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="description" content="Kseniya Pinzenik - сімейний та весільний фотограф" />
+    <meta name="keywords" content="Kseniya Pinzenik, Ксенія Пінзеник, сімейний фотограф, весільний фотограф" />
+    <meta name="distribution" content="global" />
+    <meta name="copiright" content="Kseniya Pinzenik" />
+    <meta name="author" content="Web App Factory" />
+
+    <title>Kseniya Pinzenik</title>
+
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <link rel="stylesheet" href="StyleSheet2.css" />
+    <link rel="stylesheet" href="media.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="Script1.js"></script>
+
+</head>
+
+<body>
+    <!-- Sidebar with image -->
+    <nav class="w3-sidebar w3-hide-medium w3-hide-small">
+        <div class="bigimg"></div>
+    </nav>
+
+    <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+    <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="w3-bar-block w3-center">
+            <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Головна</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Моє портфоліо</a>
+            <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Декілька слів про себе</a>
+            <a href="#services" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Мої послуги</a>
+            <a href="#price" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Вартість моїх послуг</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Мої контакти</a>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <main>
+        <div class="w3-main w3-main-left w3-padding-large">
+            <!-- Menu icon to open sidebar -->
+            <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" id="menuIco" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+            <!-- Header -->
+            <header class="w3-container w3-center" id="home">
+                <h1 class="w3-jumbo"><b>Ксенія Пінзеник</b></h1>
+                <p>Весільний та сімейний фотограф</p>
+                <img src="img/hello.jpg" class="w3-image w3-hide-large w3-hide-small w3-round img-head1">
+                <img src="img/hello.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round img-head2">
+            </header>
+
+            <!-- Portfolio Section -->
+            <article class="w3-padding-32 w3-content" id="portfolio">
+                <h2 class="w3-text-grey">Моє портфоліо</h2>
+                <hr class="w3-opacity">
+
+                <!-- Grid for photos -->
+                <section class="w3-row-padding grid-photo">
+                    <div class="w3-half">
+                        <div class="tooltip">
+                            <a href="PhotoWedding.html"><img src="img/W1.jpg" class="photo-p1"></a><span class="tooltiptext">Весільний фотоальбом</span></div>
+                        <div class="tooltip">
+                            <a href="PhotoNewlyweds.html"><img src="img/W8.jpg" class="photo-p2"></a><span class="tooltiptext">Фотоальбом молодят</span></div>
+                        <div class="tooltip">
+                            <a href="Holiday.html"><img src="img/W2.jpg" class="photo-p3"></a><span class="tooltiptext">Фотоальбом свят та корпоративів</span></div>
+                    </div>
+
+                    <div class="w3-half">
+                        <div class="tooltip">
+                            <a href="Family.html"><img src="img/W4.jpg" class="photo-p4"></a><span class="tooltiptext">Сімейний фотоальбом</span></div>
+                        <div class="tooltip">
+                            <a href="Children.html"><img src="img/W5.jpg" class="photo-p5"></a><span class="tooltiptext">Дитячий фотоальбом</span></div>
+                        <div class="tooltip">
+                            <a href="Individual.html"><img src="img/W6.jpg" class="photo-p6"></a><span class="tooltiptext">Індивідуальна фотосесія</span></div>
+                        <div class="tooltip">
+                            <a href="Happy moments.html"><img src="img/W7.jpg" class="photo-p7"></a><span class="tooltiptext">Щасливі моменти</span></div>
+                    </div>
+                    <!-- End photo grid -->
+                </section>
+                <!-- End Portfolio Section -->
+            </article>
+
+            <!-- About Section -->
+            <article class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+                <h2>Декілька слів про себе</h2>
+                <hr class="w3-opacity">
+                <p>
+                    Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <br />
+                <h2 id="services">Мої послуги</h2>
+                <hr class="w3-opacity">
+                <p>
+                    Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <br>
+
+
+                <section class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+                    <h2>Мої роботи</h2>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">14+</span><br> Результативна співпраця
+                    </div>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">55+</span><br> Проектів виконано
+                    </div>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">89+</span><br> Щасливі клієнти
+                    </div>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">150+</span><br> Святкові заходи
+                    </div>
+                </section>
+
+                <!-- Testimonials -->
+                <h2 class="">Відгуки про мене</h2>
+                <hr class="w3-opacity">
+
+                <img src="img/ico.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right testimonials">
+                <p><span class="w3-large w3-text-black w3-margin-right">Людмила Google.</span></p>
+                <p>Ксенія Пінзеник чудовий фотограф. Я дуже рада, що звернулась до неї!</p><br>
+
+                <img src="img/ico.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right testimonials">
+                <p><span class="w3-large w3-text-black w3-margin-right">Олександр Google.</span></p>
+                <p>Ксенія Пінзеник професіонал своєї справи. Зробила чудову фотографії мого весілля!</p><br>
+
+                <img src="img/ico.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right testimonials">
+                <p><span class="w3-large w3-text-black w3-margin-right">Крістіна Bing.</span></p>
+                <p>Чудові моменти мого життя на фотографіях від Ксенії Пінзеник</p><br>
+
+                <img src="img/ico.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right testimonials">
+                <p><span class="w3-large w3-text-black w3-margin-right">Вероніка Bing.</span></p>
+                <p>Нема кращого сімейного фотографа ніж Ксенія Пінзеник</p><br>
+
+                <!-- Grid for pricing tables -->
+                <h2 class="w3" id="price">Вартість моїх послуг</h2>
+                <hr class="w3-opacity">
+
+                <section class="w3-row-padding">
+                    <div class="w3-half w3-margin-bottom">
+                        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+                            <li class="w3-black w3-xlarge w3-padding-32">Індивідуальна фотосесія</li>
+                            <li class="w3-padding-16">Фотосесія до 4 годин</li>
+                            <li class="w3-padding-16">Обработка всіх фотографій</li>
+                            <li class="w3-padding-16">Ретуш фотографій</li>
+                            <li class="w3-padding-16">Друк 20 фото</li>
+                            <li class="w3-padding-16">
+                                <h2>$ 10</h2>
+                                <span class="w3-opacity">за годину</span>
+                            </li>
+                            <li class="w3-light-grey w3-padding-24">
+                                <button class="w3-button w3-white w3-padding-large w3-hover-black">Детальніше...</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w3-half">
+                        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+                            <li class="w3-black w3-xlarge w3-padding-32">Фотосесія немовлят</li>
+                            <li class="w3-padding-16">Фотосесія до 2 годин</li>
+                            <li class="w3-padding-16">Обработка всіх фотографій</li>
+                            <li class="w3-padding-16">Ретуш фотографій</li>
+                            <li class="w3-padding-16">Друк 20 фото</li>
+                            <li class="w3-padding-16">
+                                <h2>$ 10</h2>
+                                <span class="w3-opacity">за годину</span>
+                            </li>
+                            <li class="w3-light-grey w3-padding-24">
+                                <button class="w3-button w3-white w3-padding-large w3-hover-black">Детальніше...</button>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="w3-row-padding">
+                    <div class="w3-half w3-margin-bottom">
+                        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+                            <li class="w3-black w3-xlarge w3-padding-32">Сімейна фотосесія</li>
+                            <li class="w3-padding-16">Фотосесія до 3 годин</li>
+                            <li class="w3-padding-16">Обработка всіх фотографій</li>
+                            <li class="w3-padding-16">Ретуш фотографій</li>
+                            <li class="w3-padding-16">Друк 40 фото</li>
+                            <li class="w3-padding-16">
+                                <h2>$ 10</h2>
+                                <span class="w3-opacity">за годину</span>
+                            </li>
+                            <li class="w3-light-grey w3-padding-24">
+                                <button class="w3-button w3-white w3-padding-large w3-hover-black">Детальніше...</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w3-half">
+                        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+                            <li class="w3-black w3-xlarge w3-padding-32">Фотозйомка весілля</li>
+                            <li class="w3-padding-16">Фотосесія до 12 годин</li>
+                            <li class="w3-padding-16">Обработка всіх фотографій</li>
+                            <li class="w3-padding-16">Ретуш фотографій</li>
+                            <li class="w3-padding-16">Друк 120 фото</li>
+                            <li class="w3-padding-16">
+                                <h2>$ 15</h2>
+                                <span class="w3-opacity">за годину</span>
+                            </li>
+                            <li class="w3-light-grey w3-padding-24">
+                                <button class="w3-button w3-white w3-padding-large w3-hover-black">Детальніше...</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Grid/Pricing tables -->
+                </section>
+
+                <!-- End About Section -->
+            </article>
+
+
+
+            <!-- Contact Section -->
+            <div class="w3-padding-32 w3-content w3-text-grey" id="contact">
+                <h2>Мої контакти</h2>
+                <hr class="w3-opacity">
+                <div class="w3-section">
+                    <p><i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-right"></i> Закарпатська обл., м.Мукачево</p>
+                    <p><i class="fa fa-phone fa-fw w3-xlarge w3-margin-right"></i> +38 (099) 620-33-11 </p>
+                    <p><i class="fa fa-envelope fa-fw w3-xlarge w3-margin-right"> </i> mail@gmail.com</p>
+                </div>
+
+                <!-- Google Map -->
+                <div id="googleMap" class="w3-greyscale-max"></div>
+                <!-- End Contact Section -->
+            </div>
+
+            <!-- Footer -->
+            <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge">
+                <p class="w3-medium">Я в соціальних мережах</p>
+
+                <a href="https://www.facebook.com/pinzenikkseniya" class="social">
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                </a>
+                <a href="https://www.instagram.com/pinzenikkseniya/" class="social">
+                    <i class="fa fa-instagram w3-hover-opacity"></i>
+                </a>
+                <!--
+    <i class="fa fa-skype w3-hover-opacity"></i>
+    <i class="fa fa-whatsapp w3-hover-opacity"></i>
+    <i class="fa fa-telegram w3-hover-opacity"></i>
+    <i class="fa fa-vk w3-hover-opacity"></i>
+                    -->
+                <p class="w3-medium">&copy; Web App Factory 2018</p>
+                <!-- End footer -->
+            </footer>
+
+            <!-- END PAGE CONTENT -->
+        </div>
+    </main>
+
+    <!-- Add Google Maps -->
+    <script src="Script1.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbVI5dMQXUQPuWAYl-oiF2uHHqnECc66U&callback=myMap"></script>
+
+</body>
+
+</html>

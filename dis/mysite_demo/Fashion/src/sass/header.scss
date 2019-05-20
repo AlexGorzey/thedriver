@@ -1,0 +1,330 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+.container::after,
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+}
+.container {
+    padding: 8px;
+}
+.col {
+    float: left;
+    width: 100%
+}
+.col.s1 {
+    width: 8.33333%
+}
+.col.s2 {
+    width: 16.66666%
+}
+.col.s3 {
+    width: 24.99999%
+}
+.col.s4 {
+    width: 33.33333%
+}
+.col.s5 {
+    width: 41.66666%
+}
+.col.s6 {
+    width: 49.99999%
+}
+.w3-col.s7 {
+    width: 58.33333%
+}
+.col.s8 {
+    width: 66.66666%
+}
+.col.s9 {
+    width: 74.99999%
+}
+.col.s10 {
+    width: 83.33333%
+}
+.col.s11 {
+    width: 91.66666%
+}
+
+.col.s12 {
+    width: 99.99999%
+}
+.body-content {
+    max-width: 1250px;
+    margin: auto;
+}
+
+/* Navbar */
+/*Top menu on small screens*/
+.bar:before,
+.bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+.bar {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.bar-screen {
+    position: relative;
+    padding: 24px 24px;
+    letter-spacing: 4px;
+}
+.btn-right {
+    position: absolute;
+    padding-top: 24px!important;
+    padding-bottom: 24px!important;
+    float: right!important;
+}
+.black {
+    color: #fff!important;
+    background-color: #000!important;
+}
+.xlarge {
+    font-size: 24px!important
+}
+.padding-24 {
+    padding-top: 24px!important;
+    padding-bottom: 24px!important;
+}
+.right {
+    float: right!important
+}
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    cursor: pointer
+}
+
+/* Style the sidebar links and the dropdown button */
+.sidebar a,
+.dropdown-btn {
+    padding: 6px 8px 6px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    color: black important;
+    /*
+    background: none;
+    outline: none;*/
+    border-bottom: 2px dotted transparent;    
+}
+
+/* On mouse-over */
+.sidebar a:hover,
+.dropdown-btn:hover {
+    background-color: rgb(230, 230, 230);
+    color: black important;
+    border-bottom: 2px dotted #000;
+    width: 100%;
+    z-index: 3;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: rgba(200, 200, 200, 0.767);
+}
+.blocked {
+    color: rgba(120, 120, 120, 0.75) !important;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+.sidebar {
+    position: fixed !important;
+    height: 100%;
+    width: 270px;
+    overflow: auto;
+    z-index: 13;
+}
+.sidebar a {
+    font-family: "Roboto", sans-serif;
+}
+
+/*sidebar block*/
+.bar-block {
+    padding-top: 8px;
+    background: white;
+    z-index: 13;
+}
+.bar-block .dropdown-hover .dropdown-content,
+.bar-block .dropdown-click .dropdown-content {
+    min-width: 100%
+}
+.bar-block .dropdown-hover .button,
+.bar-block .dropdown-click .button {
+    text-align: left;
+}
+.bar-block .bar-item {
+    /*
+    width: auto;
+    border: none;
+    white-space: normal;
+    */
+    display: block;
+    text-align: left;
+    float: none;
+    outline: 0;
+}
+.bar-block .center .bar-item {
+    text-align: center
+}
+.bar-block .bar-item {
+    float: left;
+    /*
+    width: auto;
+    border: none;
+    */
+    display: block;
+    outline: 0
+}
+.top {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+.padding-16 {
+    padding-top: 16px!important;
+    padding-bottom: 16px!important
+}
+.display-container {
+    position: relative
+}
+.display-container:hover .display-hover {
+    display: block
+}
+.display-container:hover span.display-hover {
+    display: inline-block
+}
+.logo {
+    width: 250px;
+    padding: 27px 0 0 0;
+}
+
+/*button*/
+.button {
+    border: 2px dotted transparent;
+    display: inline-block;
+    padding: 8px;
+    vertical-align: middle;
+    overflow: hidden;
+    color: inherit;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    /*
+    white-space: nowrap;
+    text-decoration: none;
+    */
+}
+.button {
+    user-select: none;
+}
+.button:disabled {
+    cursor: not-allowed;
+    opacity: 0.3
+}
+.display-topright {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+.menu {
+    width: 240px;
+    height: auto;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 48px 0 0 0;
+}
+.my-purchases{
+    padding: 24px 8px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.load-button{
+    cursor: pointer;
+}
+.total-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    // background-color: rgba(200,200,200,.767);    
+}
+
+// COOKIE
+.cookie{
+    width: 100%;
+    height: 180px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.9);
+    color: white;
+    z-index: 3;
+}
+.cookie-content{
+    margin: 0 auto;
+    padding: 36px;
+    text-align: left;
+    
+}
+.cookie-text{
+    margin: 0 auto;
+    padding: 16px ;
+    text-align: left;
+}
